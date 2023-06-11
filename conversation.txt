@@ -1,0 +1,155 @@
+the tengu wanted to expand their influence to the human village, so they began negotiations to allow tengu to live in the human villange and humans on the youkai mountain.
+kitou approved of this, and moved forward with the project.
+yukari tried to intervene, but the mediator was dead-set on mixing humans and youkai.
+"humans will be able to claim more of gensokyo, and move beyond a single settlement in the plains. one day, they may be free to live whereever they want in this land."
+was the reasoning of kitou, and the hope of the human population.
+
+"humans will never be safe from youkai with a scattered population, and youkai will never be safe from humans with a swelling population."
+was the reasoning of yukari yakumo.
+ultimately, yukari has the final say.
+
+
+"Good afternoon, Kitou."
+"I would like to have a talk with you."
+
+"Oh, for cripes' sake..."
+"What do you want?"
+
+"How rude. I'm going out of my way for this, you know."
+"It is just a bit of light scolding, so endure it, if you will."
+
+"Ugh. I know what you want."
+"You have some issue with the human expansion project, don't you?"
+
+"Yes, that's correct."
+"You mustn't neglect your duties as the Hakurei shrine maiden."
+"You knew I would arrive and still continued with it?"
+"How is it that humans are both so forward-thinking and so short-sighted?"
+
+"Looking down on us like that..."
+"That's why the humans are sick of the rules! That village just isn't enough!"
+"Everybody is alright with this! Why do you have to intervene!?"
+
+"Kitou."
+"You need to understand how important Gensokyo is."
+"How important your role is."
+"It is more than a sanctuary, and what you have is more than just a job."
+"You are the scale that balances human and youkai."
+"Do not lose your judgement at the first sight of something new."
+
+"..."
+"You don't know the first thing about what it's like to live here, youkai."
+"Can I even call you that much?"
+"I think I have more in common with your average Tengu than you do, at this point."
+"You aren't part of any group at all. You don't have anyone you want to protect or see prosper."
+
+//["Looking back on it now..."]
+//["I probably shouldn't have said all of those things."]
+//[""]
+
+"...If I may."
+"Kitou. I will speak plainly."
+"I have Gensokyo's best interests at heart."
+"I believe you can at least appreciate my efforts in forming the barrier."
+"I would hope that you reconsider my words, but it is ultimately your decision to make."
+
+//["It never was."]
+
+[That youkai, Yukari Yakumo...]
+[She showed up a few more times after that, to try and convince me otherwise.]
+[She was always so composed, but even I could tell she was getting desperate.]
+[In our final argument, she simply stared at me.]
+[It might have been my imagination, but before she wordlessly disappeared...]
+[I think I saw a single tear in her eye.]
+[The next day, she showed up, formal as usual.]
+[She said that if I was really going to go through with this, I would need to speak the language of the Tengu.]
+[I needed capital.]
+[It's true that I had some reservations about working with them, and their culture of status and wealth was one of them.]
+[With enough money, I could buy certain humans into power...]
+[She told me of a great competition, across the ocean.]
+[I would leave the safety of the new great barrier, open amongst the people of the outside world, but it would be worth it.]
+[Yukari Yakumo would oversee my extended stay outside, in case I needed to be brought back home for anything important, and I would collect the equivalent of one hundred million Yen.]
+
+"Kitou."
+
+"What is it?"
+
+"Before we depart for this race, I must make two 'changes' to you."
+"Is that acceptable?"
+
+"Not at all? What sort of changes?"
+
+"One, to preserve the sanctity of the Hakurei power."
+"The outside world is largely defecit of magic as we know it."
+"You would be incapable of using magic, and your ability as the Hakurei shrine maiden may degrade."
+"Thus, I would like to reshape it into a form that the outside world accepts."
+
+"Yeah? What's that like?"
+
+"Certain mages in the outside world, with no ambient source of magic, draw directly from their souls as a mana source."
+"This makes their magic dangerous to use, its disruption capable of even physically harming the mage..."
+"However it ensures that their magic will always be able to persist, so long as they are alive."
+
+"Hm. Makes sense to me."
+"Do it, change my ability."
+"Before you do anything else, though, I need your word."
+"Aoi will be safe."
+
+"She will."
+"It will no doubt be good training for her, protecting the shrine on her own."
+"She will one day take over the shrine, you know."
+
+"I know."
+"I know she's strong, too. I just hate to be so far away..."
+"Whatever, it'll work out."
+"Anyway do you really have to make a second change to me? That's already quite a lot."
+
+"<Oh, I suppose I don't have to.>"
+"<How is your English, Kitou?>"
+
+"What."
+
+"...Language. In that country, <English> is spoken."
+
+"Uh, sure, whatever. Don't forget to fix me later."
+
+"Of course."
+"I shall modify your 'boundary of blade and hilt', and 'boundary of east and west'."
+"..."
+"<Now then, to the beautiful beaches of San Diego, California!>"
+"<First, we must find a boat.>"
+
+"<Are you->"
+"<Oh. Words are different.>"
+"<Anyway, what? Just take me across the ocean yourself.>"
+
+"<You'll need to become acquainted with the outside world culture, won't you?>"
+"<A long ride will do you well.>"
+
+[She wouldn't even bring me out of the barrier herself. I had to set up a whole ritual just to pass through.]
+[Acting as my translator for my own god damn language, Yukari Yakumo got us on a ship headed for North America.]
+[I tried talking to people on the boat, which is where I actually learned what sort of competition this was.]
+[Kind old man told me it was horse-racing.]
+[Lucky me. I never was that great at flying, so I've always gotten around Gensokyo by riding unless I absolutely had to fly.]
+[After learning that, I was able to get Yukari Yakumo to at least bring my horse here with her ability once I yelled at her enough.]
+[It was a long ride, but I didn't mind.]
+[Talking to outsiders was interesting.]
+[I started messing around with my new ability on the boat, and nobody seemed to notice.]
+[It made sense that there wouldn't be that many mages in the outside world...]
+[And even among them, I should be the strongest.]
+[I've lived with magic my whole life.]
+[The 'ability to manipulate friction'...]
+[It's second nature to me and my horse.]
+[So what the hell is this?]
+[That 'rotation'...!]
+[That boy is summoning it with his magic, but I can tell.]
+[It 'isn't magic itself'!]
+[The boy is using it with magic, and the idiot is using it with a technology, that steel ball.]
+[It's something like a 'universal constant'.]
+[Something that didn't come to existence with 'magic' or 'technology', but can be used by both.]
+[A force like 'gravity' or an existence like 'light'. That's what that rotation is.]
+[What the hell!?]
+[Yukari Yakumo didn't-]
+[She-]
+
+"Damn it!"

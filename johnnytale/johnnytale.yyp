@@ -130,6 +130,7 @@
     {"id":{"name":"format_time","path":"scripts/format_time/format_time.yy",},},
     {"id":{"name":"o_flash","path":"objects/o_flash/o_flash.yy",},},
     {"id":{"name":"draw_sprite_at","path":"scripts/draw_sprite_at/draw_sprite_at.yy",},},
+    {"id":{"name":"ft_belligerent","path":"fonts/ft_belligerent/ft_belligerent.yy",},},
     {"id":{"name":"fts_marineconstellation","path":"sprites/fts_marineconstellation/fts_marineconstellation.yy",},},
     {"id":{"name":"array_create_depth","path":"scripts/array_create_depth/array_create_depth.yy",},},
     {"id":{"name":"c_evaluate","path":"scripts/c_evaluate/c_evaluate.yy",},},

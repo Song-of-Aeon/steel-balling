@@ -1,4 +1,4 @@
-#macro JOHNNY global.textguy[$"johnny"]
-nu chardata("johnny", "Johnny Joestar", s_sans, se_sans, .65);
-SANS.addspr("NORMAL");
-SANS.addspr("NOTHING");
+#macro KITOU global.textguy[$"kitou"]
+nu chardata("kitou", "Kitou Hakurei", s_sans, se_sans, .65);
+KITOU.addspr("NORMAL");
+KITOU.addspr("NOTHING");
