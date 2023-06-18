@@ -177,7 +177,7 @@
     {"id":{"name":"statish","path":"scripts/statish/statish.yy",},},
     {"id":{"name":"o_persistent","path":"objects/o_persistent/o_persistent.yy",},},
     {"id":{"name":"c_randomname","path":"scripts/c_randomname/c_randomname.yy",},},
-    {"id":{"name":"o_textbox","path":"objects/o_textbox/o_textbox.yy",},},
+    {"id":{"name":"VALKYRIE","path":"objects/VALKYRIE/VALKYRIE.yy",},},
     {"id":{"name":"utils","path":"scripts/utils/utils.yy",},},
     {"id":{"name":"c_loadprofiles","path":"scripts/c_loadprofiles/c_loadprofiles.yy",},},
     {"id":{"name":"array_include","path":"scripts/array_include/array_include.yy",},},

@@ -148,7 +148,7 @@
     {"name":"statish","order":24,"path":"scripts/statish/statish.yy",},
     {"name":"o_persistent","order":1,"path":"objects/o_persistent/o_persistent.yy",},
     {"name":"c_randomname","order":13,"path":"scripts/c_randomname/c_randomname.yy",},
-    {"name":"o_textbox","order":2,"path":"objects/o_textbox/o_textbox.yy",},
+    {"name":"VALKYRIE","order":2,"path":"objects/VALKYRIE/VALKYRIE.yy",},
     {"name":"utils","order":28,"path":"scripts/utils/utils.yy",},
     {"name":"c_loadprofiles","order":10,"path":"scripts/c_loadprofiles/c_loadprofiles.yy",},
     {"name":"array_include","order":6,"path":"scripts/array_include/array_include.yy",},

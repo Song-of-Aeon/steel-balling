@@ -1,6 +1,6 @@
 function textbox_create(textscript=txt_fartman, style=global.textstyles.adv, autoadvancewait=false, destroyothers=true) {
-	instance_destroy(destroyothers ? o_textbox : noone);
-	var chump = instance_create(style.x, style.y, o_textbox);
+	instance_destroy(destroyothers ? VALKYRIE : noone);
+	var chump = instance_create(style.x, style.y, VALKYRIE);
 	chump.width = style.width;
 	chump.height = style.height;
 	chump.spriteposy = style.spriteposy;

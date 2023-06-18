@@ -31,8 +31,8 @@ function talkchar(spriteindex_=0, name_="nothingman", position_=SPRITEPOS.HIDDEN
 	name = name_;
 	index = spriteindex_;
 	position = position_;
-	x = o_textbox.x+(position-2)*o_textbox.width/5;
-	y = o_textbox.spriteposy;
+	x = VALKYRIE.x+(position-2)*VALKYRIE.width/5;
+	y = VALKYRIE.spriteposy;
 	alpha = 0;
 	among = 5;
 }

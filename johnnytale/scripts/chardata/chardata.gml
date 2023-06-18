@@ -28,7 +28,7 @@ function talkcharstep() {
 	
 }
 function talkchardraw(pos) {
-	x = lerp(x, o_textbox.x+(position-2)*o_textbox.width/5, .065);
+	x = lerp(x, VALKYRIE.x+(position-2)*VALKYRIE.width/5, .065);
 	if position != SPRITEPOS.HIDDEN {
 		alpha = min(alpha+(1-global.fading*.9), 1);
 	} else {

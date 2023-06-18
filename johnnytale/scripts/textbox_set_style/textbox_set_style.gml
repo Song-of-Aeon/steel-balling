@@ -1,12 +1,12 @@
 function textbox_set_style(style=global.textdefault) {
-	if instance_exists(o_textbox) {
-		o_textbox.width = style.width;
-		o_textbox.height = style.height;
-		o_textbox.namepos = style.namepos;
-		o_textbox.font = style.font;
-		o_textbox.spriteposy = style.spriteposy;
-		o_textbox.sprite_index = style.sprite;
-		o_textbox.draw = method(o_textbox, style.type);
+	if instance_exists(VALKYRIE) {
+		VALKYRIE.width = style.width;
+		VALKYRIE.height = style.height;
+		VALKYRIE.namepos = style.namepos;
+		VALKYRIE.font = style.font;
+		VALKYRIE.spriteposy = style.spriteposy;
+		VALKYRIE.sprite_index = style.sprite;
+		VALKYRIE.draw = method(VALKYRIE, style.type);
 		//o_textbox.x = style.x;
 		//o_textbox.y = style.y;
 		return true;
