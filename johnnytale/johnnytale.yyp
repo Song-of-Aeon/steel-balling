@@ -41,6 +41,7 @@
   "resources": [
     {"id":{"name":"pragma","path":"scripts/pragma/pragma.yy",},},
     {"id":{"name":"textbox_create","path":"scripts/textbox_create/textbox_create.yy",},},
+    {"id":{"name":"txt_intro","path":"scripts/txt_intro/txt_intro.yy",},},
     {"id":{"name":"huecol","path":"scripts/huecol/huecol.yy",},},
     {"id":{"name":"deep_copy","path":"scripts/deep_copy/deep_copy.yy",},},
     {"id":{"name":"dir2hv","path":"scripts/dir2hv/dir2hv.yy",},},

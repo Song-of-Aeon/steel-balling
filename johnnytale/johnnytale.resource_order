@@ -23,6 +23,7 @@
   "ResourceOrderSettings": [
     {"name":"pragma","order":43,"path":"scripts/pragma/pragma.yy",},
     {"name":"textbox_create","order":4,"path":"scripts/textbox_create/textbox_create.yy",},
+    {"name":"txt_intro","order":5,"path":"scripts/txt_intro/txt_intro.yy",},
     {"name":"huecol","order":28,"path":"scripts/huecol/huecol.yy",},
     {"name":"deep_copy","order":6,"path":"scripts/deep_copy/deep_copy.yy",},
     {"name":"dir2hv","order":3,"path":"scripts/dir2hv/dir2hv.yy",},
