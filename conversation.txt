@@ -1,16 +1,17 @@
-the tengu wanted to expand their influence to the human village, so they began negotiations to allow tengu to live in the human villange and humans on the youkai mountain.
-kitou approved of this, and moved forward with the project.
-yukari tried to intervene, but the mediator was dead-set on mixing humans and youkai.
-"humans will be able to claim more of gensokyo, and move beyond a single settlement in the plains. one day, they may be free to live whereever they want in this land."
-was the reasoning of kitou, and the hope of the human population.
+[USER CUTIN: KITOU]
 
-"humans will never be safe from youkai with a scattered population, and youkai will never be safe from humans with a swelling population."
-was the reasoning of yukari yakumo.
-ultimately, yukari has the final say.
+[Kitou Hakurei]
+[Capable of easing friction]
+[A confident human from a distinguished Eastern dynasty of overseers. She left her daughter and her country in order to tackle the 'Steel Ball Run' race.]
+
+
 
 
 [Three months before the 'Steel Ball Run' race, a certain 'important person' was led astray...]
 [In a small valley country on a small eastern island, a shrine maiden plans to make changes to the world.]
+[She lead an initiative called the "Human Expansion Project", with the cooperation of the Tengu in that country.]
+[It aimed to integrate their societies, strengthening and giving freedom to both species.]
+[...Such was how she saw it.]
 
 "Good afternoon, Kitou."
 "I would like to have a talk with you."
@@ -22,7 +23,7 @@ ultimately, yukari has the final say.
 "It is just a bit of light scolding, so endure it, if you will."
 
 "Ugh. I know what you want."
-"You have some issue with the human expansion project, don't you?"
+"You have some issue with the Human Expansion Project, don't you?"
 
 "Yes, that's correct."
 "You mustn't neglect your duties as the Hakurei shrine maiden."
@@ -49,6 +50,10 @@ ultimately, yukari has the final say.
 //["Looking back on it now..."]
 //["I probably shouldn't have said all of those things."]
 //[""]
+
+[She was 'led astray'...]
+[The 'Hakurei' in her was led astray by the 'Kitou' in her.]
+[You would do well to remember this.]
 
 "...If I may."
 "Kitou. I will speak plainly."
@@ -143,6 +148,14 @@ ultimately, yukari has the final say.
 [I've lived with magic my whole life.]
 [My 'ability to manipulate friction'...]
 [It's second nature to me and my horse.]
+
+[Because of that, I couldn't help but think that this 'race' was nothing but guaranteed to end in my victory.]
+[I would have stood out if I brazenly used my ability to speed to the finish...]
+[So I stood back and picked off racers comfortably.]
+[None of them stood a chance, even out of the few mages I met.]
+[The 'magic' out here seems to be bound by conditions... since Yukari Yakumo's meddling, even I can only apply my ability by touch.]
+[I thought I]
+
 [So what the hell is this?]
 [That 'rotation'...!]
 [That boy is summoning it with his magic, but I can tell.]
@@ -156,3 +169,16 @@ ultimately, yukari has the final say.
 [She-]
 
 "Damn it!"
+
+
+
+
+the tengu wanted to expand their influence to the human village, so they began negotiations to allow tengu to live in the human villange and humans on the youkai mountain.
+kitou approved of this, and moved forward with the project.
+yukari tried to intervene, but the mediator was dead-set on mixing humans and youkai.
+"humans will be able to claim more of gensokyo, and move beyond a single settlement in the plains. one day, they may be free to live whereever they want in this land."
+was the reasoning of kitou, and the hope of the human population.
+
+"humans will never be safe from youkai with a scattered population, and youkai will never be safe from humans with a swelling population."
+was the reasoning of yukari yakumo.
+ultimately, yukari has the final say.

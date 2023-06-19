@@ -71,7 +71,7 @@ Each stone would slow, and eventually sink...
 "Johnny, you got a good one there!?"
 
 "Yeah, yeah!"
-"I don't know what it is, but this stone feels perfect!"
+"I don't know what it is, but this stone feels perfect! I didn't even have to shave it down!"
 
 "Go on, throw it!"
 
@@ -93,5 +93,10 @@ Facing Johnny, he asks,
 "You didn't 'spin' that stone, did you?"
 "I need to be absolutely certain..."
 
+"No... I didn't."
+"I swear, I didn't!"
+"Gyro, what's going on!?"
+
+"..."
 
 "
