@@ -37,34 +37,33 @@ function txt_intro() {
 	txt("[Oh, they're finally waking up.]"),
 	txt("[Treat them kindly. They have endured a long, awful battle.]"),
 		
-	txt("Gyro...", ), //begin quote from final chapter of in a silent way
-	txt("Gyro!", ),
+	txt("Gyro...", JOHNNY.), //begin quote from final chapter of in a silent way
+	txt("Gyro!", JOHNNY.),
 		
 	txt("[Two men lay sprawled on the edge of a marsh, slowly coming to consciousness.]"),
 	txt("[Thanks to a passerby's help, they've recovered from their deep, deep wounds.]"),
 		
 	txt("Ugh...", ),
 		
-	txt("He- his spray...", ),
-	txt("He fixed... our 'wounds'.", ),
-	txt("...", ),
-	txt("Our horses are here too... what's his deal!?", ), //end quote from final chapter of in a silent way
+	txt("He- his spray...", JOHNNY.),
+	txt("He fixed... our 'wounds'.", JOHNNY.),
+	txt("...", JOHNNY.),
+	txt("Our horses are here too... what's his deal!?", JOHNNY.), //end quote from final chapter of in a silent way
 		
-	txt("...", ),
-	txt("Peh.", ),
-	txt("Do you really think that's possible? Johnny.", ),
-	txt("\"Hot Pants\"... He might be a good guy, but she's 'someone willing to keep racing'.", ),
+	txt("...", GYRO.),
+	txt("Peh.", GYRO.),
+	txt("Do you really think that's possible? Johnny.", GYRO.),
+	txt("\"Hot Pants\"... He might be a good guy, but she's 'someone willing to keep racing'.", GYRO.),
+	txt("Anybody still doing this thing is someone who should be feared.", GYRO.),
 		
-	txt("Anybody still doing this thing is someone who should be feared.", ),
+	txt("...", JOHNNY.),
+	txt("How about me? Gyro, do you think I should be 'feared'?", JOHNNY.),
+	txt("Or maybe, should I be 'scared of you'?", JOHNNY.),
 		
-	txt("...", ),
-	txt("How about me? Gyro, do you think I should be 'feared'?", ),
-	txt("Or maybe, should I be 'scared of you'?", ),
+	txt("Nyohoho!", GYRO.),
+	txt("...", GYRO.),
 		
-	txt("Nyohoho!", ),
-	txt("...", ),
-		
-	txt("...", ),
+	txt("...", JOHNNY.),
 		
 	txt("[Gyro tots off to his horse, silently signaling Johnny to do the same.]"),
 	txt("[Slow Dancer lowers itself to make the mount easier, and Johnny accepts the kindness.]"),
