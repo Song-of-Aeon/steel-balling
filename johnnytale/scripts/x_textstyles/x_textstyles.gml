@@ -1,7 +1,7 @@
 global.textstyles = {};
 
 global.textstyles.adv = {
-	x: 1366/2,
+	x: 1920/2,
 	y: 500,
 	width: 1188,
 	height: 180,
@@ -12,15 +12,16 @@ global.textstyles.adv = {
 	font: ft_belligerent,
 }
 
-global.textstyles.nvl = {
-	x: 320,
-	y: 24,
-	width: 398,
-	height: 284,
-	spriteposy: 150,
+global.textstyles.future = {
+	x: 1920/2,
+	y: 150,
+	width: 1150,
+	height: 815,
+	spriteposy: 150-36,
 	namepos: new vec2(-216, 7),
 	sprite: s_bigtext,
 	type: st_textnvl,
-	font: ft_belligerent,
+	font: ft_marineconstellation,
 }
 
+global.textstyles.nvl = global.textstyles.future;

@@ -32,7 +32,7 @@ global.marineconstellation = font_add_sprite_ext(fts_marineconstellation,
 	""+
 	""+
 	""+
-	"", true, 1);
+	"", true, 3);
 #macro ft_marineconstellation global.marineconstellation
 
 globalvar ft_zpix;

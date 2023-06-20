@@ -118,8 +118,8 @@
   "last": 0,
   "maintainGms1Font": false,
   "parent": {
-    "name": "other",
-    "path": "folders/CHR/other.yy",
+    "name": "CHR",
+    "path": "folders/CHR.yy",
   },
   "pointRounding": 0,
   "ranges": [

@@ -1,6 +1,6 @@
 function txt_conversation() {
 	
-	msg = msglang(
+	msg = msglang([
 	
 	//txt("USER CUTIN: KITOU
 	
@@ -14,39 +14,39 @@ function txt_conversation() {
 	txt("It aimed to integrate their societies, strengthening and giving freedom to both species."),
 	txt("...Such was how she saw it."),
 	
-	txt("Good afternoon, Kitou.", YUKARI.),
-	txt("I would like to have a talk with you.", YUKARI.),
+	txt("Good afternoon, KITOU.NOTHING", YUKARI.NOTHING),
+	txt("I would like to have a talk with you.", YUKARI.NOTHING),
 	
-	txt("Oh, for cripes' sake...", KITOU.),
-	txt("What do you want?", KITOU.),
+	txt("Oh, for cripes' sake...", KITOU.NOTHING),
+	txt("What do you want?", KITOU.NOTHING),
 	
-	txt("How rude. I'm going out of my way for this, you know.", YUKARI.),
-	txt("It is just a bit of light scolding, so endure it, if you will.", YUKARI.),
+	txt("How rude. I'm going out of my way for this, you know.", YUKARI.NOTHING),
+	txt("It is just a bit of light scolding, so endure it, if you will.", YUKARI.NOTHING),
 	
-	txt("Ugh. I know what you want.", KITOU.),
-	txt("You have some issue with the Human Expansion Project, don't you?", KITOU.),
+	txt("Ugh. I know what you want.", KITOU.NOTHING),
+	txt("You have some issue with the Human Expansion Project, don't you?", KITOU.NOTHING),
 	
-	txt("Yes, that's correct.", YUKARI.),
-	txt("You mustn't neglect your duties as the Hakurei shrine maiden.", YUKARI.),
-	txt("You knew I would arrive and still continued with it?", YUKARI.),
-	txt("How is it that humans are both so forward-thinking and so short-sighted?", YUKARI.),
+	txt("Yes, that's correct.", YUKARI.NOTHING),
+	txt("You mustn't neglect your duties as the Hakurei shrine maiden.", YUKARI.NOTHING),
+	txt("You knew I would arrive and still continued with it?", YUKARI.NOTHING),
+	txt("How is it that humans are both so forward-thinking and so short-sighted?", YUKARI.NOTHING),
 	
-	txt("Looking down on us like that...", KITOU.),
-	txt("That's why the humans are sick of the rules! That village just isn't enough!", KITOU.),
-	txt("Everybody is alright with this! Why do you have to intervene!?", KITOU.),
+	txt("Looking down on us like that...", KITOU.NOTHING),
+	txt("That's why the humans are sick of the rules! That village just isn't enough!", KITOU.NOTHING),
+	txt("Everybody is alright with this! Why do you have to intervene!?", KITOU.NOTHING),
 	
-	txt("Kitou.", YUKARI.),
-	txt("You need to understand how important Gensokyo is.", YUKARI.),
-	txt("How important your role is.", YUKARI.),
-	txt("It is more than a sanctuary, and what you have is more than just a job.", YUKARI.),
-	txt("You are the scale that balances human and youkai.", YUKARI.),
-	txt("Do not lose your judgement at the first sight of something new.", YUKARI.),
+	txt("Kitou.", YUKARI.NOTHING),
+	txt("You need to understand how important Gensokyo is.", YUKARI.NOTHING),
+	txt("How important your role is.", YUKARI.NOTHING),
+	txt("It is more than a sanctuary, and what you have is more than just a job.", YUKARI.NOTHING),
+	txt("You are the scale that balances human and youkai.", YUKARI.NOTHING),
+	txt("Do not lose your judgement at the first sight of something new.", YUKARI.NOTHING),
 	
-	txt("...", KITOU.),
-	txt("You don't know the first thing about what it's like to live here, youkai.", KITOU.),
-	txt("Can I even call you that much?", KITOU.),
-	txt("I think I have more in common with your average Tengu than you do, at this point.", KITOU.),
-	txt("You aren't part of any group at all. You don't have anyone you want to protect or see prosper.", KITOU.),
+	txt("...", KITOU.NOTHING),
+	txt("You don't know the first thing about what it's like to live here, youkai.", KITOU.NOTHING),
+	txt("Can I even call you that much?", KITOU.NOTHING),
+	txt("I think I have more in common with your average Tengu than you do, at this point.", KITOU.NOTHING),
+	txt("You aren't part of any group at all. You don't have anyone you want to protect or see prosper.", KITOU.NOTHING),
 	
 	//txt("//"Looking back on it now..."
 	//txt("//"I probably shouldn't have said all of those things."
@@ -56,11 +56,11 @@ function txt_conversation() {
 	txt("The 'Hakurei' in her was led astray by the 'Kitou' in her."),
 	txt("You would do well to remember this."),
 	
-	txt("...If I may.", YUKARI.),
-	txt("Kitou. I will speak plainly.", YUKARI.),
-	txt("I have Gensokyo's best interests at heart.", YUKARI.),
-	txt("I believe you can at least appreciate my efforts in forming the barrier.", YUKARI.),
-	txt("I would hope that you reconsider my words, but it is ultimately your decision to make.", YUKARI.),
+	txt("...If I may.", YUKARI.NOTHING),
+	txt("Kitou. I will speak plainly.", YUKARI.NOTHING),
+	txt("I have Gensokyo's best interests at heart.", YUKARI.NOTHING),
+	txt("I believe you can at least appreciate my efforts in forming the barrier.", YUKARI.NOTHING),
+	txt("I would hope that you reconsider my words, but it is ultimately your decision to make.", YUKARI.NOTHING),
 	
 	//txt("//"It never was."
 	
@@ -79,61 +79,61 @@ function txt_conversation() {
 	txt("I would leave the safety of the new great barrier, open amongst the people of the outside world, but it would be worth it."),
 	txt("Yukari Yakumo would oversee my extended stay outside, in case I needed to be brought back home for anything important, and I would collect the equivalent of one hundred million Yen."),
 	
-	txt("Kitou.", YUKARI.),
+	txt("Kitou.", YUKARI.NOTHING),
 	
-	txt("What is it?", KITOU.),
+	txt("What is it?", KITOU.NOTHING),
 	
-	txt("Before we depart for this race, I must make two 'changes' to you.", YUKARI.),
-	txt("Is that acceptable?", YUKARI.),
+	txt("Before we depart for this race, I must make two 'changes' to you.", YUKARI.NOTHING),
+	txt("Is that acceptable?", YUKARI.NOTHING),
 	
-	txt("Not at all? What sort of changes?", KITOU.),
+	txt("Not at all? What sort of changes?", KITOU.NOTHING),
 	
-	txt("One, to preserve the sanctity of the Hakurei power.", YUKARI.),
-	txt("The outside world is largely defecit of magic as we know it.", YUKARI.),
-	txt("You would be incapable of using magic, and your ability as the Hakurei shrine maiden may degrade.", YUKARI.),
-	txt("Thus, I would like to reshape it into a form that the outside world accepts.", YUKARI.),
+	txt("One, to preserve the sanctity of the Hakurei power.", YUKARI.NOTHING),
+	txt("The outside world is largely defecit of magic as we know it.", YUKARI.NOTHING),
+	txt("You would be incapable of using magic, and your ability as the Hakurei shrine maiden may degrade.", YUKARI.NOTHING),
+	txt("Thus, I would like to reshape it into a form that the outside world accepts.", YUKARI.NOTHING),
 	
-	txt("Yeah? What's that like?", KITOU.),
+	txt("Yeah? What's that like?", KITOU.NOTHING),
 	
-	txt("Certain mages in the outside world, with no ambient source of magic, draw directly from their souls as a mana source.", YUKARI.),
-	txt("This makes their magic dangerous to use, its disruption capable of even physically harming the mage...", YUKARI.),
-	txt("However it ensures that their magic will always be able to persist, so long as they are alive.", YUKARI.),
+	txt("Certain mages in the outside world, with no ambient source of magic, draw directly from their souls as a mana source.", YUKARI.NOTHING),
+	txt("This makes their magic dangerous to use, its disruption capable of even physically harming the mage...", YUKARI.NOTHING),
+	txt("However it ensures that their magic will always be able to persist, so long as they are alive.", YUKARI.NOTHING),
 	
-	txt("Hm. Makes sense to me.", KITOU.),
-	txt("Do it, change my ability.", KITOU.),
-	txt("Before you do anything else, though, I need your word.", KITOU.),
-	txt("Aoi will be safe.", KITOU.),
+	txt("Hm. Makes sense to me.", KITOU.NOTHING),
+	txt("Do it, change my ability.", KITOU.NOTHING),
+	txt("Before you do anything else, though, I need your word.", KITOU.NOTHING),
+	txt("Aoi will be safe.", KITOU.NOTHING),
 	
-	txt("She will.", YUKARI.),
-	txt("It will no doubt be good training for her, protecting the shrine on her own.", YUKARI.),
-	txt("She will one day take over the shrine, you know.", YUKARI.),
+	txt("She will.", YUKARI.NOTHING),
+	txt("It will no doubt be good training for her, protecting the shrine on her own.", YUKARI.NOTHING),
+	txt("She will one day take over the shrine, you know.", YUKARI.NOTHING),
 	
-	txt("I know.", KITOU.),
-	txt("I know she's strong, too. I just hate to be so far away...", KITOU.),
-	txt("Whatever, it'll work out.", KITOU.),
-	txt("Anyway do you really have to make a second change to me? That's already quite a lot.", KITOU.),
+	txt("I know.", KITOU.NOTHING),
+	txt("I know she's strong, too. I just hate to be so far away...", KITOU.NOTHING),
+	txt("Whatever, it'll work out.", KITOU.NOTHING),
+	txt("Anyway do you really have to make a second change to me? That's already quite a lot.", KITOU.NOTHING),
 	
-	txt("<Oh, I suppose I don't strictly have to.>", YUKARI.),
-	txt("<How is your English, Kitou?>", YUKARI.),
+	txt("<Oh, I suppose I don't strictly have to.>", YUKARI.NOTHING),
+	txt("<How is your English, Kitou?>", YUKARI.NOTHING),
 	
-	txt("What...?", KITOU.),
+	txt("What...?", KITOU.NOTHING),
 	
-	txt("...Language. In that country, <English> is spoken.", YUKARI.),
+	txt("...Language. In that country, <English> is spoken.", YUKARI.NOTHING),
 	
-	txt("Uh, sure, whatever. Don't forget to fix me later.", KITOU.),
+	txt("Uh, sure, whatever. Don't forget to fix me later.", KITOU.NOTHING),
 	
-	txt("Of course.", YUKARI.),
-	txt("I shall modify your 'boundary of blade and hilt', and 'boundary of east and west'.", YUKARI.),
-	txt("...", YUKARI.),
-	txt("<Now then, to the beautiful beaches of San Diego, California!>", YUKARI.),
-	txt("<First, we must find a boat.>", YUKARI.),
+	txt("Of course.", YUKARI.NOTHING),
+	txt("I shall modify your 'boundary of blade and hilt', and 'boundary of east and west'.", YUKARI.NOTHING),
+	txt("...", YUKARI.NOTHING),
+	txt("<Now then, to the beautiful beaches of San Diego, California!>", YUKARI.NOTHING),
+	txt("<First, we must find a boat.>", YUKARI.NOTHING),
 	
-	txt("<Are you->", KITOU.),
-	txt("<Oh. Words are different.>", KITOU.),
-	txt("<Anyway, what? Just take me across the ocean yourself.>", KITOU.),
+	txt("<Are you->", KITOU.NOTHING),
+	txt("<Oh. Words are different.>", KITOU.NOTHING),
+	txt("<Anyway, what? Just take me across the ocean yourself.>", KITOU.NOTHING),
 	
-	txt("<You'll need to become acquainted with the outside world culture, won't you?>", YUKARI.),
-	txt("<A long ride will do you well.>", YUKARI.),
+	txt("<You'll need to become acquainted with the outside world culture, won't you?>", YUKARI.NOTHING),
+	txt("<A long ride will do you well.>", YUKARI.NOTHING),
 	
 	txt("She wouldn't even bring me out of the barrier herself. I had to set up a whole ritual just to pass through."),
 	txt("Acting as my translator for my own god damn language, Yukari Yakumo got us on a ship headed for North America."),
@@ -167,7 +167,7 @@ function txt_conversation() {
 	txt("Yukari Yakumo didn't-"),
 	txt("She-"),
 	
-	txt("Damn it!", KITOU.),
+	txt("Damn it!", KITOU.NOTHING),
 	
 	//txt("the tengu wanted to expand their influence to the human village, so they began negotiations to allow tengu to live in the human villange and humans on the youkai mountain.
 	//txt("kitou approved of this, and moved forward with the project.
@@ -179,11 +179,13 @@ function txt_conversation() {
 	//txt("was the reasoning of yukari yakumo.
 	//txt("ultimately, yukari has the final say.
 	
-	,
+	],[
 	
 	txt(""),
 	
-	);
+	]);
 	
-	endevent = c_null;
+	endevent = function() {
+		textbox_create(txt_victory, global.textstyles.nvl);
+	};
 }

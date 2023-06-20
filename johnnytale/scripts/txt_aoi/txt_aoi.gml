@@ -2,51 +2,51 @@ function txt_aoi() {
 	
 	msg = msglang([
 	
-	txt("Kitou.", YUKARI.),
+	txt("Kitou.", YUKARI.NOTHING),
 	
-	txt("Y-yukari Yakumo...", KITOU.),
-	txt("You b-bitch. You planned all of this...", KITOU.),
+	txt("Y-yukari Yakumo...", KITOU.NOTHING),
+	txt("You b-bitch. You planned all of this...", KITOU.NOTHING),
 	
-	txt("Why, hardly.", YUKARI.),
-	txt("But even if you had won the race, I did not plan to let you back into Gensokyo.", YUKARI.),
+	txt("Why, hardly.", YUKARI.NOTHING),
+	txt("But even if you had won the race, I did not plan to let you back into Gensokyo.", YUKARI.NOTHING),
 	
-	txt("You think you're s-so smart.", KITOU.),
-	txt("You can't even keep your own damn shrine maidens in line.", KITOU.),
-	txt("And... haha... now I have no choice but to trust you.", KITOU.),
-	txt("I don't want to die thinking that Gensokyo is soon to follow.", KITOU.),
-	txt("Because the great sage of Gensokyo will save it! She will l-lead it to greatness!", KITOU.),
-	txt("To that end, you don't even mind needless killing, do you?", KITOU.),
+	txt("You think you're s-so smart.", KITOU.NOTHING),
+	txt("You can't even keep your own damn shrine maidens in line.", KITOU.NOTHING),
+	txt("And... haha... now I have no choice but to trust you.", KITOU.NOTHING),
+	txt("I don't want to die thinking that Gensokyo is soon to follow.", KITOU.NOTHING),
+	txt("Because the great sage of Gensokyo will save it! She will l-lead it to greatness!", KITOU.NOTHING),
+	txt("To that end, you don't even mind needless killing, do you?", KITOU.NOTHING),
 	
-	txt("...", YUKARI.),
+	txt("...", YUKARI.NOTHING),
 	
-	txt("Heh heh... fuck right off.", KITOU.),
+	txt("Heh heh... fuck right off.", KITOU.NOTHING),
 	
-	txt("...", YUKARI.),
-	txt("You understand.", YUKARI.),
-	txt("I would like to offer you something.", YUKARI.),
+	txt("...", YUKARI.NOTHING),
+	txt("You understand.", YUKARI.NOTHING),
+	txt("I would like to offer you something.", YUKARI.NOTHING),
 	
-	txt("A deal with the devil, again?", KITOU.),
-	txt("If I wanted one, I'm about to meet the real thing.", KITOU.),
+	txt("A deal with the devil, again?", KITOU.NOTHING),
+	txt("If I wanted one, I'm about to meet the real thing.", KITOU.NOTHING),
 	
-	txt("...Your daughter.", YUKARI.),
-	txt("Would you like to see her one more time?", YUKARI.),
+	txt("...Your daughter.", YUKARI.NOTHING),
+	txt("Would you like to see her one more time?", YUKARI.NOTHING),
 	
-	txt("...", KITOU.),
-	txt("Heh heh heh.", KITOU.),
-	txt("HAHAHAHAHA...!", KITOU.),
-	txt("PATHETIC!", KITOU.),
-	txt("Were you always this pathetic!? Yukari Yakumo!!", KITOU.),
-	txt("To keep her in line...!", KITOU.),
-	txt("To keep Aoi in line, you want to show her what's happened to me!?", KITOU.),
-	txt("Of course! Of course youkai dominate man with fear! That's how it's always been!", KITOU.),
-	txt("Hahahaha...ha...", KITOU.),
+	txt("...", KITOU.NOTHING),
+	txt("Heh heh heh.", KITOU.NOTHING),
+	txt("HAHAHAHAHA...!", KITOU.NOTHING),
+	txt("PATHETIC!", KITOU.NOTHING),
+	txt("Were you always this pathetic!? Yukari Yakumo!!", KITOU.NOTHING),
+	txt("To keep her in line...!", KITOU.NOTHING),
+	txt("To keep Aoi in line, you want to show her what's happened to me!?", KITOU.NOTHING),
+	txt("Of course! Of course youkai dominate man with fear! That's how it's always been!", KITOU.NOTHING),
+	txt("Hahahaha...ha...", KITOU.NOTHING),
 	
-	txt("That's not-", YUKARI.),
+	txt("That's not-", YUKARI.NOTHING),
 	
-	txt("Show her to me.", KITOU.),
-	txt("And leave.", KITOU.),
+	txt("Show her to me.", KITOU.NOTHING),
+	txt("And leave.", KITOU.NOTHING),
 	
-	txt("...Very well.", YUKARI.),
+	txt("...Very well.", YUKARI.NOTHING),
 	
 	txt("The gap youkai disappears."),
 	txt("In just a few moments, Kitou will be met with her daughter for the last time."),
@@ -68,9 +68,9 @@ function txt_aoi() {
 	txt("That much doesn't have to be seen."),
 	txt("But I know that as the gap closed, tears streaming down her face, she allowed herself to slump back in front of that tree."),
 	
-	txt("I won't let you use me this time, Yukari Yakumo...", KITOU.),
-	txt("...I win this one...", KITOU.),
-	txt("...", KITOU.),
+	txt("I won't let you use me this time, Yukari Yakumo...", KITOU.NOTHING),
+	txt("...I win this one...", KITOU.NOTHING),
+	txt("...", KITOU.NOTHING),
 	
 	txt("With no response, she stares forward into the vast forest."),
 	txt("Slowly, her gaze shifts upward."),
@@ -78,8 +78,8 @@ function txt_aoi() {
 	txt("She wishes she could have flown above this place, just as she sometimes flew over her home country."),
 	txt("But without magic, gravity..."),
 	
-	txt("Ah... 'gravity'...", KITOU.),
-	txt("That's just some sort of 'friction', too, isn't it...?", KITOU.),
+	txt("Ah... 'gravity'...", KITOU.NOTHING),
+	txt("That's just some sort of 'friction', too, isn't it...?", KITOU.NOTHING),
 	
 	txt("Kitou Hakurei eases herself from the weight of the world, and lifts off into the sky."),
 	txt("She shines golden in the sunset as she rises."),
@@ -90,5 +90,7 @@ function txt_aoi() {
 	
 	]);
 	
-	endevent = c_null;
+	endevent = function() {
+		textbox_create(txt_end, global.textstyles.nvl);
+	};
 }

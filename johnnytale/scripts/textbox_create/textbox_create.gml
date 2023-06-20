@@ -22,9 +22,6 @@ function textbox_create(textscript=txt_fartman, style=global.textstyles.adv, aut
 				msg[i].text = string_concat(msg[i].text, "|w"+autoadvancewait+"  ");
 			}
 		}
-		if style == global.textstyles.nvl {
-			array_insert(msg, 0, btxt(s_nvlbg));
-		}
 		textline_next();
 	}
 	return chump;
