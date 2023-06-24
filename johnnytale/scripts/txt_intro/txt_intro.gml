@@ -47,7 +47,7 @@ function txt_intro() {
 	txt("Treat them kindly. They have endured a long, awful battle."),
 		
 	txt("Gyro...", JOHNNY.NOTHING), //begin quote from final chapter of in a silent way
-	txt("Gyro!", JOHNNY.NOTHING),
+	txt("Gyro!", JOHNNY.NOTHING, SPRITEPOS.LEFT),
 		
 	txt("Two men lay sprawled on the edge of a marsh, slowly coming to consciousness."),
 	txt("Thanks to a passerby's help, they've recovered from their deep, deep wounds."),
@@ -59,18 +59,18 @@ function txt_intro() {
 	txt("...", JOHNNY.NOTHING),
 	txt("Our horses are here too... what's his deal!?", JOHNNY.NOTHING), //end quote from final chapter of in a silent way
 		
-	txt("...", GYRO.NOTHING),
+	txt("...", GYRO.NOTHING, SPRITEPOS.MIDRIGHT),
 	txt("Peh.", GYRO.NOTHING),
 	txt("Do you really think that's possible? Johnny.", GYRO.NOTHING),
 	txt("\"Hot Pants\"... He might be a good guy, but she's 'someone willing to keep racing'.", GYRO.NOTHING),
 	txt("Anybody still doing this thing is someone who should be feared.", GYRO.NOTHING),
 		
 	txt("...", JOHNNY.NOTHING),
-	txt("How about me? Gyro, do you think I should be 'feared'?", JOHNNY.NOTHING),
+	txt("How about me? Gyro, do you think I should be 'feared'?", JOHNNY.NOTHING, SPRITEPOS.MIDLEFT),
 	txt("Or maybe, should I be 'scared of you'?", JOHNNY.NOTHING),
 		
 	txt("Nyohoho!", GYRO.NOTHING),
-	txt("...", GYRO.NOTHING),
+	txt("...", GYRO.NOTHING, SPRITEPOS.CENTER),
 		
 	txt("...", JOHNNY.NOTHING),
 		

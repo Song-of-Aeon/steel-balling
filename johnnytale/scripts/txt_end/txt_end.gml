@@ -26,7 +26,7 @@ function txt_end() {
 	
 	txt("...But nobody came."),
 	txt("..."),
-	txt("Compared to KITOU.NOTHING.. I think I already am the \"better shrine maiden\"."),
+	txt("Compared to Kitou... I think I already am the \"better shrine maiden\"."),
 	txt("Gah, I can tell. I hate that I can tell."),
 	txt("That \"Human Expansion Project\"... would have led to a great disaster."),
 	txt("We have the highest authority, so if a Hakurei wanted something like that to pass, no matter the consequences, it eventually would."),
@@ -40,7 +40,7 @@ function txt_end() {
 	txt("Aunn steps into the shed."),
 	txt("Ah... I didn't mean to worry her."),
 	
-	txt("AUNN.NOTHING.. I'm fine.", REIMU.NOTHING),
+	txt("Aunn... I'm fine.", REIMU.NOTHING),
 	txt("I just read something awful.", REIMU.NOTHING),
 	
 	txt("Oh... do you want something to cheer you up?", AUNN.NOTHING),
@@ -56,7 +56,7 @@ function txt_end() {
 	txt("Tell me immediately.", REIMU.NOTHING),
 	txt("If I'm not there, tell Marisa, then... I don't know, everyone you can find.", REIMU.NOTHING),
 	txt("And tell them to not go along with her, even if it would be the right thing to do.", REIMU.NOTHING),
-	txt("What I just read, AUNN.NOTHING..", REIMU.NOTHING),
+	txt("What I just read, Aunn...", REIMU.NOTHING),
 	txt("This book...", REIMU.NOTHING),
 	txt("...", REIMU.NOTHING),
 	
@@ -86,9 +86,9 @@ function txt_end() {
 	txt("Like a kid running away from home..."),
 	txt("Ugh."),
 	txt("Those books... I'll finish them later."),
-	txt("That 'spin' thing seems interesting, and I should probably see what happens to those two men that fought KITOU.NOTHING"),
+	txt("That 'spin' thing seems interesting, and I should probably see what happens to those two men that fought Kitou."),
 	txt("Yukari thought enough of them that she kept writing long after her job there was complete, I guess..."),
-	txt("YUKARI.NOTHING.."),
+	txt("Yukari..."),
 	txt("Why did you create this country?"),
 	txt("Locking us off in this valley, so youkai can survive..."),
 	txt("Do you really care about youkai? Do you care at all about humans?"),

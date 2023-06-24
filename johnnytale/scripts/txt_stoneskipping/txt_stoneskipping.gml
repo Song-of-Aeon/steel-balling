@@ -2,12 +2,12 @@ function txt_stoneskipping() {
 	
 	msg = msglang([
 	
-	txt("At the edge of the marsh, Johnny glances behind him."),
+	txt("At the edge of the marsh, Johnny glances behind himself."),
 	txt("His eyes have no particular sentiment for 'this place', but he felt as if he had left something behind him, here."),
 	txt("Perhaps it was his weakness, perhaps it was his sanity..."),
 	txt("But it may have just been miles left on the race."),
 	
-	txt("Hm?", JOHNNY.NOTHING),
+	txt("Hm?", JOHNNY.NOTHING, SPRITEPOS.LEFT),
 	txt("Gyro, look.", JOHNNY.NOTHING),
 	
 	txt("Johnny points toward a group of children across a small pond."),
@@ -18,7 +18,7 @@ function txt_stoneskipping() {
 	txt("It looks like they're 'skipping stones'...", JOHNNY.NOTHING),
 	txt("Have you ever done it, Gyro? 'Skip stones' like that?", JOHNNY.NOTHING),
 	
-	txt("No...", GYRO.NOTHING),
+	txt("No...", GYRO.NOTHING, SPRITEPOS.MIDLEFT),
 	
 	txt("...", JOHNNY.NOTHING),
 	
@@ -32,8 +32,12 @@ function txt_stoneskipping() {
 	
 	txt("...Alright.", JOHNNY.NOTHING),
 	
+	ntxt(u, GYRO.NOTHING, .5),
 	txt("Gyro leaps from his horse, Valkyrie, and helps Johnny off of Slow Dancer."),
+	ntxt(u, JOHNNY.NOTHING, 1.5),
+	ntxt(u, GYRO.NOTHING, SPRITEPOS.CENTER),
 	txt("Carrying Johnny, Gyro casually makes his way to the shore, and sets him down."),
+	ntxt(u, GYRO.NOTHING, SPRITEPOS.MIDRIGHT),
 	txt("Johnny returns the kids' waves from across the pond, as Gyro begins to search for rocks."),
 	
 	txt("We'll both aim to get a stone over to those kids.", GYRO.NOTHING),

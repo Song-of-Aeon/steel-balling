@@ -24,15 +24,15 @@ function st_textadv() {
 	size = 1;
 	angle = 0;
 	alpha = 1;
-	color = c_white;
-	color2 = c_white;
+	color = #551809;
+	color2 = #551809;
 	textpos = new vec2();
 	wiggle = new vec2();
 	shake = new vec2();
 	var mychar = "";
 	//log(tevents);
 	for (i=1; i<=charpos; i++) {
-		color = c_white;
+		color = #551809;
 		mychar = string_char_at(msg[talkpos].text, i);
 		textpos.x = x+xpos-width/2+wiggle.x+shake.y;
 		textpos.y = y+lb*ftheight+wiggle.x+shake.y;

@@ -2,12 +2,12 @@ global.textstyles = {};
 
 global.textstyles.adv = {
 	x: 1920/2,
-	y: 500,
+	y: 740,
 	width: 1188,
 	height: 180,
 	spriteposy: 150,
 	namepos: new vec2(147, 500-72),
-	sprite: s_spacetext,
+	sprite: s_sbrtextbox,
 	type: st_textadv,
 	font: ft_belligerent,
 }

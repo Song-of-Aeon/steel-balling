@@ -4,12 +4,12 @@ function txt_confrontation() {
 	
 	txt("His gaze silent, the man rises from his spot aside the pond."),
 	
-	txt("If it's something you, with your knowledge of the 'spin' can't even explain...", JOHNNY.NOTHING),
+	txt("If it's something you, with your knowledge of the 'spin' can't even explain...", JOHNNY.NOTHING, 1.5),
 	txt("Am I right to assume that this is something 'unnatural'?", JOHNNY.NOTHING),
 	
 	txt("The man turns to face Johnny with a wide grin, his golden teeth catching the sun."),
 	
-	txt("One hundred points, JOHNNY.NOTHING", GYRO.NOTHING),
+	txt("One hundred points, Johnny.", GYRO.NOTHING, SPRITEPOS.MIDRIGHT),
 	txt("This is undeniably 'someone's' work, but...", GYRO.NOTHING),
 	txt("Nyohoho...", GYRO.NOTHING),
 	txt("Who cares?", GYRO.NOTHING),
@@ -19,8 +19,12 @@ function txt_confrontation() {
 	txt("...I see.", JOHNNY.NOTHING),
 	txt("Gyro, would you help me to my horse?", JOHNNY.NOTHING),
 	
+	ntxt(u, GYRO.NOTHING, SPRITEPOS.CENTER),
 	txt("Gyro Zeppeli sweeps Johnny from the muddy poolside."),
+	ntxt(u, JOHNNY.NOTHING, SPRITEPOS.LEFT),
+	ntxt(u, GYRO.NOTHING, .5),
 	txt("Stepping widely around Slow Dancer's back, Gyro swiftly and smoothly releases Johnny upon the steed."),
+	ntxt(u, GYRO.NOTHING, SPRITEPOS.MIDLEFT),
 	txt("Once Gyro was mounted as well, they continued their travels."),
 	txt("After a few minutes of contemplation while riding in silence, Johnny spoke confidently."),
 	
@@ -100,8 +104,16 @@ function txt_confrontation() {
 	
 	txt("Huh!?", JOHNNY.NOTHING),
 	
+	ntxt(u, KITOU.NOTHING, 9),
+	ntxt(u, KITOU.NEUTRAL, -6),
+	ntxt(u, PATHOFLIES.NORMAL, 11),
+	ntxt(u, PATHOFLIES.NORMAL, -4),
+	//ntxt(u, JOHNNY.NOTHING, SPRITEPOS.MIDRIGHT),
+	//ntxt(u, KITOU.NOTHING, SPRITEPOS.RIGHT),
 	txt("A person speeds toward and past the two men."),
-	txt("They have no time to react. Even at their incredible speed, they're able to weave between their horses, and continues traveling in the opposite direction of Johnny and GYRO.NOTHING"),
+	txt("They have no time to react. Even at their incredible speed, they're able to weave between their horses, and continues traveling in the opposite direction of Johnny and Gyro."),
+	ntxt(u, JOHNNY.NOTHING, SPRITEPOS.MIDRIGHT),
+	ntxt(u, GYRO.NOTHING, SPRITEPOS.RIGHT),
 	txt("Johnny is just barely able to turn his head in time to see her back before she disappears into the trees."),
 	
 	txt("W... who the hell was that!?", JOHNNY.NOTHING),
@@ -109,7 +121,7 @@ function txt_confrontation() {
 	txt("I didn't even have time to shoot them!", JOHNNY.NOTHING),
 	txt("And why did they just run past us...!?", JOHNNY.NOTHING),
 	
-	txt("JOHNNY.NOTHING.. I have no idea.", GYRO.NOTHING),
+	txt("Johnny.. I have no idea.", GYRO.NOTHING),
 	txt("All I can say is that they weren't 'running'.", GYRO.NOTHING),
 	
 	txt("Running?", JOHNNY.NOTHING),
@@ -119,7 +131,7 @@ function txt_confrontation() {
 	txt("That can't be true! That speed was incredible!", JOHNNY.NOTHING),
 	
 	txt("Stop yapping! I saw what I said, and it's that they weren't running!", GYRO.NOTHING),
-	txt("It's obviously a 'stand ability', JOHNNY.NOTHING", GYRO.NOTHING),
+	txt("It's obviously a 'stand ability', Johnny.", GYRO.NOTHING),
 	txt("Like you said, the next person we saw ended up being 'that person'.", GYRO.NOTHING),
 	
 	txt("I see... so what should we do?", JOHNNY.NOTHING),
@@ -146,13 +158,16 @@ function txt_confrontation() {
 	txt("1... 2, 3."),
 	txt("From Johnny's right hand, three 'bullets' fire."),
 	txt("Unfortunately, none of them can land before the person once again flies between the horses."),
+	ntxt(u, KITOU.NOTHING, SPRITEPOS.RIGHT),
 	txt("With a quick swipe of the shortstaff, Johnny is knocked off of his horse."),
 	
-	txt("Ugh!", JOHNNY.NOTHING),
+	txt("Ugh!", JOHNNY.NOTHING, SPRITEPOS.MIDRIGHT+.5),
 	
-	txt("Johnny!", GYRO.NOTHING),
+	txt("Johnny!", GYRO.NOTHING, SPRITEPOS.RIGHT-.4),
 	
 	txt("Gyro leaps from Valkyrie and quickly helps Johnny to his balance, then stands to face their attacker."),
+	ntxt(u, JOHNNY.NOTHING, SPRITEPOS.LEFT),
+	ntxt(u, GYRO.NOTHING, SPRITEPOS.MIDLEFT),
 	txt("This time, they begin to slow after passing the two, eventually coming to a stop."),
 	
 	txt("...", JOHNNY.NOTHING),
@@ -163,11 +178,11 @@ function txt_confrontation() {
 	txt("Gyro stands stalwart, ready for some sort of catalyst to strike."),
 	txt("Turning around to face the men, the person chooses to speak."),
 	
-	txt("You two...", KITOU.NOTHING),
-	txt("I would like to engage you in 'battle'.", KITOU.NOTHING),
-	txt("I would like us to wager our 'races' on it.", KITOU.NOTHING),
-	txt("The loser will accept 'disqualification', and leave this competition.", KITOU.NOTHING),
-	txt("Your opponent is 'Kitou Hakurei', shrine maiden of paradise.", KITOU.NOTHING),
+	txt("You two...", KITOU.NEUTRAL, SPRITEPOS.RIGHT),
+	txt("I would like to engage you in 'battle'.", KITOU.NEUTRAL),
+	txt("I would like us to wager our 'races' on it.", KITOU.NEUTRAL),
+	txt("The loser will accept 'disqualification', and leave this competition.", KITOU.NEUTRAL),
+	txt("Your opponent is 'Kitou Hakurei', shrine maiden of paradise.", KITOU.SMUG),
 	
 	btxt(u, u, u, u, u, function() {
 		statish("fade", 100);

@@ -3,29 +3,35 @@ JOHNNY:
 - the one you already made
 - curious
 - surprised
-- stern
 - having fun
 - begging/desperation
 - realization/i figured it out
 - worried/physically pressured
-- laughing like a dumbass
 - da DARK DETERMINATION
-- normal determination
 - blushing
 - jojo darkness over eyes mode
 
 GYRO:
 - the one you already made
 - big golden smile
+- worried/physically pressured
+- stern/sharp gaze
+- smirk
+- blushing
+- calm/wistful
 - jojo darkness over eyes mode
 
 KITOU:
 - the one you already made
+- disgust
+- frustration
+- confidence
+- shock
+- tearful smile
 - jojo darkness over eyes mode
 
 YUKARI:
 - the one you already made
-- smug
 - calm
 - stern
 - subtle laughing
