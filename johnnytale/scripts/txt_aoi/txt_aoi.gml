@@ -75,11 +75,11 @@ function txt_aoi() {
 	ntxt(u, PATHOFLIES.NOTHING, SPRITEPOS.CENTER+.5),
 	txt("But I know that as the gap closed, tears streaming down her face, she allowed herself to slump back in front of that tree."),
 	
-	txt("I won't let you use me this time, Yukari Yakumo...", KITOU.CRYING),
-	txt("...I win this one...", KITOU.CRYING),
-	txt("...", KITOU.CRYING),
+	txt("I won't let you use me this time, Yukari Yakumo...", KITOU.NOTHING),
+	txt("...I win this one...", KITOU.NOTHING),
+	txt("...", KITOU.NOTHING),
 	
-	ntxt(u, KITOU.NOTHING, SPRITEPOS.CENTER),
+	
 	txt("With no response, she stares forward into the vast forest."),
 	txt("Slowly, her gaze shifts upward."),
 	txt("She wonders if another Hakurei has ever seen the sky of this country... if another human from Gensokyo will be ever able to be so free as to do so."),
