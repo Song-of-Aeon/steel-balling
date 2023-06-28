@@ -19,8 +19,8 @@ function txt_intro() {
 	txt("I could tell this was going to be a long one, so I grabbed some dried fruits before I started reading."),
 	txt("As I opened the books, the stories of countless people and places fell upon me."),
 	ptxt(),
-	txt("'Steven Steel'. 'The United States of America'. 'The Great Hakurei Barrier'."),
-	txt("'The Holy Corpse'. 'Stand abilities'. 'The Human Expansion Project'."),
+	txt("'Steven Steel'. 'The United States of America'. 'The 19th century'."),
+	txt("'Stand abilities'. 'The Holy Corpse'. 'The Human Expansion Project'."),
 	txt("Above all that, above even the Hakurei, the authorless \"Hakurei Record\" focused on the journey of one man."),
 	ptxt(),
 	txt("'Jonathan Joestar'."),
@@ -46,33 +46,33 @@ function txt_intro() {
 	txt("Oh, they're finally waking up."),
 	txt("Treat them kindly. They have endured a long, awful battle."),
 		
-	txt("Gyro...", JOHNNY.NOTHING), //begin quote from final chapter of in a silent way
-	txt("Gyro!", JOHNNY.NOTHING, SPRITEPOS.LEFT),
+	txt("Gyro...", JOHNNY.WORRIED), //begin quote from final chapter of in a silent way
+	txt("Gyro!", JOHNNY.PRESSURED, SPRITEPOS.LEFT),
 		
 	txt("Two men lay sprawled on the edge of a marsh, slowly coming to consciousness."),
 	txt("Thanks to a passerby's help, they've recovered from their deep, deep wounds."),
 		
-	txt("Ugh...", GYRO.NOTHING),
+	txt("Ugh...", GYRO.PRESSURED),
 		
-	txt("He- his spray...", JOHNNY.NOTHING),
-	txt("He fixed... our 'wounds'.", JOHNNY.NOTHING),
-	txt("...", JOHNNY.NOTHING),
-	txt("Our horses are here too... what's his deal!?", JOHNNY.NOTHING), //end quote from final chapter of in a silent way
+	txt("He- his spray...", JOHNNY.WORRIED),
+	txt("He fixed... our 'wounds'.", JOHNNY.WORRIED),
+	txt("...", JOHNNY.PRESSURED),
+	txt("Our horses are here too... what's his deal!?", JOHNNY.PRESSURED), //end quote from final chapter of in a silent way
 		
-	txt("...", GYRO.NOTHING, SPRITEPOS.MIDRIGHT),
-	txt("Peh.", GYRO.NOTHING),
-	txt("Do you really think that's possible? Johnny.", GYRO.NOTHING),
-	txt("\"Hot Pants\"... He might be a good guy, but she's 'someone willing to keep racing'.", GYRO.NOTHING),
-	txt("Anybody still doing this thing is someone who should be feared.", GYRO.NOTHING),
+	txt("...", GYRO.SERIOUS, SPRITEPOS.MIDRIGHT),
+	txt("Peh.", GYRO.PRESSURED),
+	txt("Do you really think that's possible? Johnny.", GYRO.SERIOUS),
+	txt("\"Hot Pants\"... He might be a good guy, but she's 'someone willing to keep racing'.", GYRO.SERIOUS),
+	txt("Anybody still doing this thing is someone who should be feared.", GYRO.SERIOUS),
 		
-	txt("...", JOHNNY.NOTHING),
-	txt("How about me? Gyro, do you think I should be 'feared'?", JOHNNY.NOTHING, SPRITEPOS.MIDLEFT),
-	txt("Or maybe, should I be 'scared of you'?", JOHNNY.NOTHING),
+	txt("...", JOHNNY.PRESSURED),
+	txt("How about me? Gyro, do you think I should be 'feared'?", JOHNNY.PRESSURED, SPRITEPOS.MIDLEFT),
+	txt("Or maybe, should I be 'scared of you'?", JOHNNY.PRESSURED),
 		
-	txt("Nyohoho!", GYRO.NOTHING),
-	txt("...", GYRO.NOTHING, SPRITEPOS.CENTER),
+	txt("Nyohoho!", GYRO.SMILING),
+	txt("...", GYRO.SERIOUS, SPRITEPOS.CENTER),
 		
-	txt("...", JOHNNY.NOTHING),
+	txt("...", JOHNNY.WORRIED),
 		
 	txt("Gyro tots off to his horse, silently signaling Johnny to do the same."),
 	txt("Slow Dancer lowers itself to make the mount easier, and Johnny accepts the kindness."),

@@ -4,49 +4,49 @@ function txt_confrontation() {
 	
 	txt("His gaze silent, the man rises from his spot aside the pond."),
 	
-	txt("If it's something you, with your knowledge of the 'spin' can't even explain...", JOHNNY.NOTHING, 1.5),
-	txt("Am I right to assume that this is something 'unnatural'?", JOHNNY.NOTHING),
+	txt("If it's something you, with your knowledge of the 'spin' can't even explain...", JOHNNY.NEUTRAL, 1.5),
+	txt("Am I right to assume that this is something 'unnatural'?", JOHNNY.PRESSURED),
 	
 	txt("The man turns to face Johnny with a wide grin, his golden teeth catching the sun."),
 	
-	txt("One hundred points, Johnny.", GYRO.NOTHING, SPRITEPOS.MIDRIGHT),
-	txt("This is undeniably 'someone's' work, but...", GYRO.NOTHING),
-	txt("Nyohoho...", GYRO.NOTHING),
-	txt("Who cares?", GYRO.NOTHING),
-	txt("If they're showing off their power before even showing up, they must be some sort of dumbass.", GYRO.NOTHING),
-	txt("Let's just keep going.", GYRO.NOTHING),
+	txt("One hundred points, Johnny.", GYRO.SMILING, SPRITEPOS.MIDRIGHT),
+	txt("This is undeniably 'someone's' work, but...", GYRO.SMUG),
+	txt("Nyohoho...", GYRO.SMILING),
+	txt("Who cares?", GYRO.NEUTRAL),
+	txt("If they're showing off their power before even showing up, they must be some sort of dumbass.", GYRO.NEUTRAL),
+	txt("Let's just keep going.", GYRO.NEUTRAL),
 	
-	txt("...I see.", JOHNNY.NOTHING),
-	txt("Gyro, would you help me to my horse?", JOHNNY.NOTHING),
+	txt("...I see.", JOHNNY.PRESSURED),
+	txt("Gyro, would you help me to my horse?", JOHNNY.NEUTRAL),
 	
-	ntxt(u, GYRO.NOTHING, SPRITEPOS.CENTER),
+	ntxt(u, GYRO.SMUG, SPRITEPOS.CENTER),
 	txt("Gyro Zeppeli sweeps Johnny from the muddy poolside."),
-	ntxt(u, JOHNNY.NOTHING, SPRITEPOS.LEFT),
-	ntxt(u, GYRO.NOTHING, .5),
+	ntxt(u, JOHNNY.NEUTRAL, SPRITEPOS.LEFT),
+	ntxt(u, GYRO.SMUG, .5),
 	txt("Stepping widely around Slow Dancer's back, Gyro swiftly and smoothly releases Johnny upon the steed."),
-	ntxt(u, GYRO.NOTHING, SPRITEPOS.MIDLEFT),
+	ntxt(u, GYRO.NEUTRAL, SPRITEPOS.MIDLEFT),
 	txt("Once Gyro was mounted as well, they continued their travels."),
 	txt("After a few minutes of contemplation while riding in silence, Johnny spoke confidently."),
 	
-	txt("About that 'event' from earlier.", JOHNNY.NOTHING),
-	txt("I don't think we should ignore it.", JOHNNY.NOTHING),
-	txt("It might have been a leftover 'effect' from another 'stand user'...", JOHNNY.NOTHING),
-	txt("But there were no traces of a battle.", JOHNNY.NOTHING),
-	txt("In addition...", JOHNNY.NOTHING),
-	txt("I dont think there are many people ahead of us.", JOHNNY.NOTHING),
-	txt("There's Dio, for sure...", JOHNNY.NOTHING),
-	txt("But who else could have been that far ahead?", JOHNNY.NOTHING),
+	txt("About that 'event' from earlier.", JOHNNY.NEUTRAL),
+	txt("I don't think we should ignore it.", JOHNNY.NEUTRAL),
+	txt("It might have been a leftover 'effect' from another 'stand user'...", JOHNNY.PRESSURED),
+	txt("But there were no traces of a battle.", JOHNNY.WORRIED),
+	txt("In addition...", JOHNNY.NEUTRAL),
+	txt("I dont think there are many people ahead of us.", JOHNNY.NEUTRAL),
+	txt("There's Dio, for sure...", JOHNNY.NEUTRAL),
+	txt("But who else could have been that far ahead?", JOHNNY.PRESSURED),
 	
-	txt("...So what you're saying is...", GYRO.NOTHING),
-	txt("There is \"someone close to us\" and that \"that person is a stand user\".", GYRO.NOTHING),
+	txt("...So what you're saying is...", GYRO.SERIOUS),
+	txt("There is \"someone close to us\" and that \"that person is a stand user\".", GYRO.SERIOUS),
 	
-	txt("...Yes.", JOHNNY.NOTHING),
+	txt("...Yes.", JOHNNY.NEUTRAL),
 	
-	txt("...I'll tell you the truth.", GYRO.NOTHING),
-	txt("I'm concerned about our 'time'.", GYRO.NOTHING),
-	txt("That dipshit \"Hot Pants\" is ahead of us right now.", GYRO.NOTHING),
-	txt("Even if he's a 'good guy', like you say...", GYRO.NOTHING),
-	txt("He won't help us if he doesn't see us... if we're behind him.", GYRO.NOTHING),
+	txt("...I'll tell you the truth.", GYRO.SERIOUS),
+	txt("I'm concerned about our 'time'.", GYRO.PRESSURED),
+	txt("That dipshit \"Hot Pants\" is ahead of us right now.", GYRO.PRESSURED),
+	txt("Even if he's a 'good guy', like you say...", GYRO.SERIOUS),
+	txt("He won't help us if he doesn't see us... if we're behind him.", GYRO.PRESSURED),
 	
 	txt("That's true...", JOHNNY.NOTHING),
 	txt("Alright. We don't have to stop.", JOHNNY.NOTHING),
@@ -54,43 +54,43 @@ function txt_confrontation() {
 	txt("If we see any human at all in the next hour...", JOHNNY.NOTHING),
 	txt("Assume they are 'that person', and be ready to fight.", JOHNNY.NOTHING),
 	
-	txt("Heh... you've really gotten vicious, haven't you?", GYRO.NOTHING),
-	txt("Sure, sure.", GYRO.NOTHING),
-	txt("That's an easy 'request' to follow.", GYRO.NOTHING),
-	txt("By the way, JOHNNY.NOTHING..", GYRO.NOTHING),
-	txt("What do you think about crows?", GYRO.NOTHING),
+	txt("Heh... you've really gotten vicious, haven't you?", GYRO.SMUG),
+	txt("Sure, sure.", GYRO.NEUTRAL),
+	txt("That's an easy 'request' to follow.", GYRO.SMUG),
+	txt("By the way, Johnny...", GYRO.NEUTRAL),
+	txt("What do you think about crows?", GYRO.SERIOUS),
 	
 	txt("...Crows? The bird?", JOHNNY.NOTHING),
 	txt("I'm not sure... I don't even know when the last time I saw one was.", JOHNNY.NOTHING),
 	
-	txt("I see...", GYRO.NOTHING),
-	txt("...", GYRO.NOTHING),
+	txt("I see...", GYRO.SERIOUS),
+	txt("...", GYRO.SERIOUS),
 	
-	txt("...", JOHNNY.NOTHING),
+	txt("...", JOHNNY.PRESSURED),
 	
-	txt("...Do you want to know what I think of them? Crows?", GYRO.NOTHING),
+	txt("...Do you want to know what I think of them? Crows?", GYRO.SERIOUS),
 	
-	txt("Oh, um...", JOHNNY.NOTHING),
-	txt("Sure.", JOHNNY.NOTHING),
+	txt("Oh, um...", JOHNNY.PRESSURED),
+	txt("Sure.", JOHNNY.PRESSURED),
 	
-	txt("Crows...", GYRO.NOTHING),
-	txt("I think they're 'cawesome'.", GYRO.NOTHING),
+	txt("Crows...", GYRO.PRESSURED),
+	txt("I think they're 'cawesome'.", GYRO.SERIOUS),
 	
-	txt("...", JOHNNY.NOTHING),
+	txt("...", JOHNNY.PRESSURED),
 	
-	txt("Do you get it, Johnny?", GYRO.NOTHING),
+	txt("Do you get it, Johnny?", GYRO.SERIOUS),
 	
-	txt("Gyro, I'm sorry...", JOHNNY.NOTHING),
-	txt("But I think they're 'cawful'.", JOHNNY.NOTHING),
+	txt("Gyro, I'm sorry...", JOHNNY.WORRIED),
+	txt("But I think they're 'cawful'.", JOHNNY.NEUTRAL),
 	
-	txt("...Ohohoho!", GYRO.NOTHING),
-	txt("Man, I knew you'd get it!", GYRO.NOTHING),
-	txt("You're pretty good at this! Back-and-forth comedy!", GYRO.NOTHING),
+	txt("...Ohohoho!", GYRO.SPARKLE),
+	txt("Man, I knew you'd get it!", GYRO.SMILING),
+	txt("You're pretty good at this! Back-and-forth comedy, that is!", GYRO.SMILING),
 	
-	txt("Ha ha... you really had me going there for a second!", JOHNNY.NOTHING),
-	txt("That's a good onee!", JOHNNY.NOTHING),
+	txt("Ha ha... you really had me going there for a second!", JOHNNY.HAPPY),
+	txt("That's a good one!", JOHNNY.HAPPY),
 	
-	txt("Right!?", GYRO.NOTHING),
+	txt("Right!?", GYRO.SPARKLE),
 	
 	txt("Bantering like this for a while, the two racers continued riding through the plains of the American midwest."),
 	txt("Johnny had nearly forgotten about his wariness from before."),
@@ -100,9 +100,9 @@ function txt_confrontation() {
 	txt("I never was able to find out."),
 	txt("Pity..."),
 	
-	txt("Johnny!", GYRO.NOTHING),
+	txt("Johnny!", GYRO.SERIOUS),
 	
-	txt("Huh!?", JOHNNY.NOTHING),
+	txt("Huh!?", JOHNNY.SURPRISED),
 	
 	ntxt(u, KITOU.NOTHING, 9),
 	ntxt(u, KITOU.NEUTRAL, -6),
@@ -116,33 +116,33 @@ function txt_confrontation() {
 	ntxt(u, GYRO.NOTHING, SPRITEPOS.RIGHT),
 	txt("Johnny is just barely able to turn his head in time to see her back before she disappears into the trees."),
 	
-	txt("W... who the hell was that!?", JOHNNY.NOTHING),
-	txt("Is that 'that person' from before?", JOHNNY.NOTHING),
-	txt("I didn't even have time to shoot them!", JOHNNY.NOTHING),
-	txt("And why did they just run past us...!?", JOHNNY.NOTHING),
+	txt("W... who the hell was that!?", JOHNNY.PRESSURED),
+	txt("Is that 'that person' from before?", JOHNNY.PRESSURED),
+	txt("I didn't even have time to shoot them!", JOHNNY.PRESSURED),
+	txt("And why did they just run past us...!?", JOHNNY.PRESSURED),
 	
-	txt("Johnny.. I have no idea.", GYRO.NOTHING),
-	txt("All I can say is that they weren't 'running'.", GYRO.NOTHING),
+	txt("Johnny.. I have no idea.", GYRO.PRESSURED),
+	txt("All I can say is that they weren't 'running'.", GYRO.PRESSURED),
 	
-	txt("Running?", JOHNNY.NOTHING),
+	txt("Running?", JOHNNY.NEUTRAL),
 	
-	txt("It may have looked like it, but that person was merely 'standing still'...", GYRO.NOTHING),
+	txt("It may have looked like it, but that person was merely 'standing still'...", GYRO.SERIOUS),
 	
-	txt("That can't be true! That speed was incredible!", JOHNNY.NOTHING),
+	txt("That can't be true! That speed was incredible!", JOHNNY.SURPRISED),
 	
-	txt("Stop yapping! I saw what I said, and it's that they weren't running!", GYRO.NOTHING),
-	txt("It's obviously a 'stand ability', Johnny.", GYRO.NOTHING),
-	txt("Like you said, the next person we saw ended up being 'that person'.", GYRO.NOTHING),
+	txt("Stop yapping! I saw what I said, and it's that they weren't running!", GYRO.PRESSURED),
+	txt("It's obviously a 'stand ability', Johnny.", GYRO.SERIOUS),
+	txt("Like you said, the next person we saw ended up being 'that person'.", GYRO.SERIOUS),
 	
-	txt("I see... so what should we do?", JOHNNY.NOTHING),
-	txt("...No, don't answer that.", JOHNNY.NOTHING),
-	txt("We have to 'chase them down', don't we?", JOHNNY.NOTHING),
-	txt("For all we know, they could be after the 'corpse', or at least the 'race'.", JOHNNY.NOTHING),
+	txt("I see... so what should we do?", JOHNNY.WORRIED),
+	txt("...No, don't answer that.", JOHNNY.NEUTRAL),
+	txt("We have to 'chase them down', don't we?", JOHNNY.DETERMINATION),
+	txt("For all we know, they could be after the 'corpse', or at least the 'race'.", JOHNNY.DETERMINATION),
 	
-	txt("...Yeah, that's it.", GYRO.NOTHING),
-	txt("So what are we standing around for!?", GYRO.NOTHING),
+	txt("...Yeah, that's it.", GYRO.PRESSURED),
+	txt("So what are we standing around for!?", GYRO.SMUG),
 	
-	txt("You're right! Let's go!", JOHNNY.NOTHING),
+	txt("You're right! Let's go!", JOHNNY.PRESSURED),
 	
 	txt("Motioning to their horses to turn around, Johnny and Gyro begin moving at a careful pace toward where the person went."),
 	txt("After a few minutes, they see the same person speeding toward them, in the same way."),
@@ -151,28 +151,30 @@ function txt_confrontation() {
 	txt("Johnny! She's got a weapon!", GYRO.NOTHING),
 	txt("Cover Yourself!", GYRO.NOTHING),
 	
+	ntxt(u, JOHNNY.DETERMINATION),
 	txt("Johnny finds himself unable to follow Gyro's orders."),
 	txt("Instead, he stares the person dead in the eye."),
 	txt("Was he trying to discern their intent, or merely lock his aim?"),
+	ntxt(u, JOHNNY.FIRING),
 	txt("He raises his hand, preparing to 'fire'."),
 	txt("1... 2, 3."),
 	txt("From Johnny's right hand, three 'bullets' fire."),
 	txt("Unfortunately, none of them can land before the person once again flies between the horses."),
-	ntxt(u, KITOU.NOTHING, SPRITEPOS.RIGHT),
+	ntxt(u, KITOU.ANGRY, SPRITEPOS.RIGHT),
 	txt("With a quick swipe of the shortstaff, Johnny is knocked off of his horse."),
 	
-	txt("Ugh!", JOHNNY.NOTHING, SPRITEPOS.MIDRIGHT+.5),
+	txt("Ugh!", JOHNNY.WORRIED, SPRITEPOS.MIDRIGHT+.5),
 	
-	txt("Johnny!", GYRO.NOTHING, SPRITEPOS.RIGHT-.4),
+	txt("Johnny!", GYRO.PRESSURED, SPRITEPOS.RIGHT-.4),
 	
 	txt("Gyro leaps from Valkyrie and quickly helps Johnny to his balance, then stands to face their attacker."),
-	ntxt(u, JOHNNY.NOTHING, SPRITEPOS.LEFT),
-	ntxt(u, GYRO.NOTHING, SPRITEPOS.MIDLEFT),
+	ntxt(u, JOHNNY.PRESSURED, SPRITEPOS.LEFT),
+	ntxt(u, GYRO.PRESSURED, SPRITEPOS.MIDLEFT),
 	txt("This time, they begin to slow after passing the two, eventually coming to a stop."),
 	
-	txt("...", JOHNNY.NOTHING),
+	txt("...", JOHNNY.NEUTRAL),
 	
-	txt("...", GYRO.NOTHING),
+	txt("...", GYRO.SERIOUS),
 	
 	txt("Despite the fall, Johnny wears a stoic face against the person."),
 	txt("Gyro stands stalwart, ready for some sort of catalyst to strike."),
