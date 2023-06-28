@@ -45,35 +45,39 @@ function txt_intro() {
 	txt("..."),
 	txt("Oh, they're finally waking up."),
 	txt("Treat them kindly. They have endured a long, awful battle."),
-		
+	
+	ptxt(global.textstyles.adv),
 	txt("Gyro...", JOHNNY.WORRIED), //begin quote from final chapter of in a silent way
 	txt("Gyro!", JOHNNY.PRESSURED, SPRITEPOS.LEFT),
-		
+	
+	ptxt(global.textstyles.nvl),
 	txt("Two men lay sprawled on the edge of a marsh, slowly coming to consciousness."),
 	txt("Thanks to a passerby's help, they've recovered from their deep, deep wounds."),
-		
+	
+	ptxt(global.textstyles.adv),
 	txt("Ugh...", GYRO.PRESSURED),
-		
+	
 	txt("He- his spray...", JOHNNY.WORRIED),
 	txt("He fixed... our 'wounds'.", JOHNNY.WORRIED),
 	txt("...", JOHNNY.PRESSURED),
 	txt("Our horses are here too... what's his deal!?", JOHNNY.PRESSURED), //end quote from final chapter of in a silent way
-		
+	
 	txt("...", GYRO.SERIOUS, SPRITEPOS.MIDRIGHT),
 	txt("Peh.", GYRO.PRESSURED),
 	txt("Do you really think that's possible? Johnny.", GYRO.SERIOUS),
 	txt("\"Hot Pants\"... He might be a good guy, but she's 'someone willing to keep racing'.", GYRO.SERIOUS),
 	txt("Anybody still doing this thing is someone who should be feared.", GYRO.SERIOUS),
-		
+	
 	txt("...", JOHNNY.PRESSURED),
 	txt("How about me? Gyro, do you think I should be 'feared'?", JOHNNY.PRESSURED, SPRITEPOS.MIDLEFT),
 	txt("Or maybe, should I be 'scared of you'?", JOHNNY.PRESSURED),
-		
+	
 	txt("Nyohoho!", GYRO.SMILING),
 	txt("...", GYRO.SERIOUS, SPRITEPOS.CENTER),
-		
+	
 	txt("...", JOHNNY.WORRIED),
-		
+	
+	ptxt(global.textstyles.nvl),
 	txt("Gyro tots off to his horse, silently signaling Johnny to do the same."),
 	txt("Slow Dancer lowers itself to make the mount easier, and Johnny accepts the kindness."),
 	txt("Onwards, the two ride."),

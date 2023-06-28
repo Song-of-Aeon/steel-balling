@@ -7,15 +7,18 @@ function txt_stoneskipping() {
 	txt("Perhaps it was his weakness, perhaps it was his sanity..."),
 	txt("But it may have just been miles left on the race."),
 	
+	ptxt(global.textstyles.adv),
 	txt("Hm?", JOHNNY.NEUTRAL, SPRITEPOS.LEFT),
 	txt("Gyro, look.", JOHNNY.NEUTRAL),
 	
+	ptxt(global.textstyles.nvl),
 	txt("Johnny points toward a group of children across a small pond."),
 	txt("The children seem to be enjoying themselves."),
 	txt("They notice Johnny watching, and wave to him."),
 	ntxt(u, JOHNNY.HAPPY),
 	txt("Waving back, he says to Gyro,"),
 	
+	ptxt(global.textstyles.adv),
 	txt("It looks like they're 'skipping stones'...", JOHNNY.NEUTRAL),
 	txt("Have you ever done it, Gyro? 'Skip stones' like that?", JOHNNY.NEUTRAL),
 	
@@ -33,6 +36,7 @@ function txt_stoneskipping() {
 	
 	txt("...Alright.", JOHNNY.NEUTRAL),
 	
+	ptxt(global.textstyles.nvl),
 	ntxt(u, GYRO.SMUG, .5),
 	txt("Gyro leaps from his horse, Valkyrie, and helps Johnny off of Slow Dancer."),
 	ntxt(u, JOHNNY.NEUTRAL, 1.5),
@@ -41,8 +45,9 @@ function txt_stoneskipping() {
 	ntxt(u, GYRO.SMUG, SPRITEPOS.MIDRIGHT),
 	txt("Johnny returns the kids' waves from across the pond, as Gyro begins to search for rocks."),
 	
-	txt("We'll both aim to get a stone over to those kids.", GYRO.HAPPY),
-	txt("That will determine the 'winner'.", GYRO.HAPPY),
+	ptxt(global.textstyles.adv),
+	txt("We'll both aim to get a stone over to those kids.", GYRO.NEUTRAL),
+	txt("That will determine the 'winner'.", GYRO.NEUTRAL),
 	
 	txt("Sure... what do we win?", JOHNNY.NEUTRAL),
 	
@@ -50,6 +55,7 @@ function txt_stoneskipping() {
 	
 	txt("Yeah, yeah...", JOHNNY.PRESSURED),
 	
+	ptxt(global.textstyles.nvl),
 	txt("Saying this, Johnny starts polishing some nearby hand-sized rocks with his 'spin'."),
 	txt("...\"The Spin\"."),
 	txt("It is a 'technique' that can be learned by anyone, but is known only to certain people."),
@@ -61,15 +67,18 @@ function txt_stoneskipping() {
 	txt("As he clenches the rock, Gyro begins to toss his stones over the onto the water."),
 	txt("They catch on the surface a few times, before losing momentum and sinking."),
 	
+	ptxt(global.textstyles.adv),
 	txt("Obviously, we won't be 'spinning' the rocks as we throw them.", GYRO.SERIOUS),
 	
 	txt("Yeah.", JOHNNY.NEUTRAL),
 	
+	ptxt(global.textstyles.nvl),
 	txt("Catching on to the game, the children across the river began returning fire toward the men."),
 	txt("As Johnny became more comfortable shaving down the stones, Gyro became more comfortable tossing them."),
 	txt("Their distances slowly but surely increased, but both sides were nearly half the pond away from reaching their goals."),
 	txt("Each stone would slow, and eventually sink..."),
 	
+	ptxt(global.textstyles.adv),
 	txt("Woah!", JOHNNY.SURPRISED),
 	
 	txt("Oh, oh!?", GYRO.SMUG),
@@ -82,12 +91,14 @@ function txt_stoneskipping() {
 	
 	txt("Alright!", JOHNNY.HAPPY),
 	
+	ptxt(global.textstyles.nvl),
 	txt("Johnny releases the stone upon the pond, with the best throw he can muster."),
 	txt("It skips along the water in broad jumps, bounding without losing any speed at all."),
 	txt("As it reaches the other side's shoreline, it slides against the sand and is launched upwards, striking a boy square in the teeth."),
 	txt("Bleeding from his gums, the boy falls over, as the other children squeal and run away."),
 	txt("Johnny is left speechless, arm still outreached from when he tossed the stone."),
 	
+	ptxt(global.textstyles.adv),
 	txt("...Huh?", JOHNNY.WORRIED),
 	txt("Did I... do that?", JOHNNY.PRESSURED),
 	

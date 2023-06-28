@@ -45,7 +45,7 @@ function ptxt(style=global.textstyles.nvl) {
 		action: function(tid) {
 			tid.backlog = [];
 			tid.tacklog = [];
-			tid.x = style.x;
+			/*tid.x = style.x;
 			tid.y = style.y;
 			tid.width = style.width;
 			tid.height = style.height;
@@ -56,7 +56,8 @@ function ptxt(style=global.textstyles.nvl) {
 			tid.sprite_index = style.sprite;
 			tid.font = style.font;
 			tid.draw = method(tid, style.type);
-			tid.style = style;
+			tid.style = style;*/
+			textbox_set_style(style);
 		},
 		type: "ptxt",
 		style: style,

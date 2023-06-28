@@ -48,6 +48,7 @@ function txt_aoi() {
 	
 	txt("...Very well.", YUKARI.WORRIED),
 	
+	ptxt(global.textstyles.kitounvl),
 	txt("The gap youkai disappears."),
 	ntxt(u, KITOU.NOTHING, SPRITEPOS.CENTER+.1),
 	txt("In just a few moments, Kitou will be met with her daughter for the last time."),

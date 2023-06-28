@@ -14,6 +14,7 @@ function txt_conversation() {
 	txt("It aimed to integrate their societies, strengthening and giving freedom to both species."),
 	txt("...Such was how she saw it."),
 	
+	ptxt(global.textstyles.kitou),
 	txt("Good afternoon, Kitou.", YUKARI.QUIZZICAL),
 	txt("I would like to have a talk with you.", YUKARI.STERN),
 	
@@ -52,10 +53,12 @@ function txt_conversation() {
 	//txt("//"I probably shouldn't have said all of those things."
 	//txt("//""
 	
+	ptxt(global.textstyles.kitounvl),
 	txt("She was 'led astray'..."),
 	txt("The 'Hakurei' in her was led astray by the 'Kitou' in her."),
 	txt("You would do well to remember this."),
 	
+	ptxt(global.textstyles.kitou),
 	txt("...If I may.", YUKARI.QUIZZICAL),
 	txt("Kitou. I will speak plainly.", YUKARI.QUIZZICAL),
 	txt("I have Gensokyo's best interests at heart.", YUKARI.STERN),
@@ -64,6 +67,7 @@ function txt_conversation() {
 	
 	//txt("//"It never was."
 	
+	ptxt(global.textstyles.kitounvl),
 	txt("That youkai, Yukari Yakumo..."),
 	txt("She showed up a few more times after that, to try and convince me otherwise."),
 	txt("She was always so composed, but even I could tell she was getting desperate."),
@@ -79,6 +83,7 @@ function txt_conversation() {
 	txt("I would leave the safety of the new great barrier, open amongst the people of the outside world, but it would be worth it."),
 	txt("Yukari Yakumo would oversee my extended stay outside, in case I needed to be brought back home for anything important, and I would collect the equivalent of one hundred million Yen."),
 	
+	ptxt(global.textstyles.kitou),
 	txt("Kitou.", YUKARI.QUIZZICAL),
 	
 	txt("What is it?", KITOU.NEUTRAL),
@@ -135,6 +140,7 @@ function txt_conversation() {
 	txt("<You'll need to become acquainted with the outside world culture, won't you?>", YUKARI.HAPPY),
 	txt("<A long ride will do you well.>", YUKARI.SMUG),
 	
+	ptxt(global.textstyles.kitounvl),
 	txt("She wouldn't even bring me out of the barrier herself. I had to set up a whole ritual just to pass through."),
 	txt("Acting as my translator for my own god damn language, Yukari Yakumo got us on a ship headed for North America."),
 	txt("I tried talking to people on the boat, which is where I actually learned what sort of competition this was."),
@@ -167,6 +173,7 @@ function txt_conversation() {
 	txt("Yukari Yakumo didn't-"),
 	txt("She-"),
 	
+	ptxt(global.textstyles.kitou),
 	txt("Damn it!", KITOU.PRESSURED),
 	
 	//txt("the tengu wanted to expand their influence to the human village, so they began negotiations to allow tengu to live in the human villange and humans on the youkai mountain.

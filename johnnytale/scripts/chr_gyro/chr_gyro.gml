@@ -8,6 +8,7 @@ GYRO.addspr("SMILING");
 GYRO.addspr("SPARKLE");
 GYRO.addspr("CONFIDENTBLUSH");
 GYRO.addspr("NERVOUSBLUSH");
+GYRO.addspr("JOJO");
 
 GYRO.addspr("BNEUTRAL");
 GYRO.addspr("BSMUG");
@@ -17,6 +18,6 @@ GYRO.addspr("BSMILING");
 GYRO.addspr("BSPARKLE");
 GYRO.addspr("BCONFIDENTBLUSH");
 GYRO.addspr("BNERVOUSBLUSH");
-GYRO.addspr("JOJO");
+GYRO.addspr("BJOJO");
 
 GYRO.addspr("NOTHING");

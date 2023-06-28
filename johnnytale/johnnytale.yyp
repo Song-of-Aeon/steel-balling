@@ -42,6 +42,7 @@
     {"id":{"name":"pragma","path":"scripts/pragma/pragma.yy",},},
     {"id":{"name":"textbox_create","path":"scripts/textbox_create/textbox_create.yy",},},
     {"id":{"name":"txt_intro","path":"scripts/txt_intro/txt_intro.yy",},},
+    {"id":{"name":"s_kitoutextbox","path":"sprites/s_kitoutextbox/s_kitoutextbox.yy",},},
     {"id":{"name":"huecol","path":"scripts/huecol/huecol.yy",},},
     {"id":{"name":"deep_copy","path":"scripts/deep_copy/deep_copy.yy",},},
     {"id":{"name":"dir2hv","path":"scripts/dir2hv/dir2hv.yy",},},
@@ -177,6 +178,7 @@
     {"id":{"name":"array_alphebetize","path":"scripts/array_alphebetize/array_alphebetize.yy",},},
     {"id":{"name":"s_spacetext","path":"sprites/s_spacetext/s_spacetext.yy",},},
     {"id":{"name":"string_waits","path":"scripts/string_waits/string_waits.yy",},},
+    {"id":{"name":"s_sbrbig","path":"sprites/s_sbrbig/s_sbrbig.yy",},},
     {"id":{"name":"txt_battle","path":"scripts/txt_battle/txt_battle.yy",},},
     {"id":{"name":"type_reference","path":"scripts/type_reference/type_reference.yy",},},
     {"id":{"name":"string_contains","path":"scripts/string_contains/string_contains.yy",},},
@@ -236,6 +238,7 @@
     {"id":{"name":"special_dnd_script","path":"scripts/special_dnd_script/special_dnd_script.yy",},},
     {"id":{"name":"array_sum","path":"scripts/array_sum/array_sum.yy",},},
     {"id":{"name":"word","path":"scripts/word/word.yy",},},
+    {"id":{"name":"s_kitoubig","path":"sprites/s_kitoubig/s_kitoubig.yy",},},
     {"id":{"name":"persona","path":"rooms/persona/persona.yy",},},
   ],
   "RoomOrderNodes": [

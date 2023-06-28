@@ -7,8 +7,8 @@ function textbox_set_style(style=global.textdefault) {
 		VALKYRIE.spriteposy = style.spriteposy;
 		VALKYRIE.sprite_index = style.sprite;
 		VALKYRIE.draw = method(VALKYRIE, style.type);
-		//o_textbox.x = style.x;
-		//o_textbox.y = style.y;
+		VALKYRIE.x = style.x;
+		VALKYRIE.y = style.y;
 		return true;
 	}
 	return false;

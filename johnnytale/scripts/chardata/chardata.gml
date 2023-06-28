@@ -37,7 +37,7 @@ function talkchardraw(pos) {
 	if sprite_get_height(sprite) > 360 {
 		draw_sprite_ext(
 			sprite, index, x, y,
-			ineg(position > SPRITEPOS.CENTER)/3, 1/3, 0,
+			ineg(position > SPRITEPOS.CENTER)*.4, .4, 0,
 			//1, 1, 0,
 			make_color_hsv(0, 0, 255-(pos>0)*100), alpha
 			//c_white, alpha
