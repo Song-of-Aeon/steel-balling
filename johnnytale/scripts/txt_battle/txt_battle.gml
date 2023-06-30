@@ -19,7 +19,7 @@ function txt_battle() {
 			standfade--;
 		
 			draw_clear(c_black);
-			draw_spr(0, 0, s_johnnycutin, u, u, u, u, u, standfade/100);
+			draw_spr(0, 0, s_tuskcutin, u, u, u, u, u, standfade/100);
 			draw_set_color(c_black);
 			draw_set_alpha(fade/100);
 			draw_rectangle(0, 0, 1920, 1080, false);
@@ -105,7 +105,7 @@ function txt_battle() {
 	txt("It felt like there was nothing to spin, and was even slippery in my hands...", GYRO.BPRESSURED),
 	txt("...Like carrying a piece of melted ice.", GYRO.BPRESSURED),
 	
-	txt("Ah...!", JOHNNY.SURPRISED),
+	txt("...Ah...!", JOHNNY.SURPRISED),
 	
 	txt("What is it? Did you think of something!?", GYRO.BSERIOUS),
 	
@@ -136,15 +136,18 @@ function txt_battle() {
 	ptxt(global.textstyles.nvl),
 	txt("While Gyro and Kitou argued and gloated meaninglessly, Johnny was thinking back."),
 	txt("That 'effect' that Gyro had seen... he had noticed it once himself."),
+	ptxt(),
 	txt("(That smooth stone...!)", JOHNNY.SURPRISED),
 	txt("(Back at the lake, when we were playing 'skipping stones'...)", JOHNNY.NEUTRAL),
 	txt("(I didn't even try to 'spin' them as I threw them.)", JOHNNY.NEUTRAL),
 	txt("(Despite that, that final stone traveled over the water so quickly! And as if gliding!)", JOHNNY.WORRIED),
+	ptxt(),
 	txt("(Is that what happened to Gyro's 'steel balls'? Is that why he can't throw them if he tries to use the 'Spin'?)", JOHNNY.PRESSURED),
 	//txt("//"(This woman... she's doing the same thing as she flies by us.)", JOHNNY.BNOTHING),
 	txt("(But what 'is' it!? What 'ability' lets things slide in that way?)", JOHNNY.PRESSURED),
 	ntxt(u, KITOU.NEUTRAL, SPRITEPOS.RIGHT+.3),
 	txt("(Shit...! There's no time! She's coming back again!)", JOHNNY.SURPRISED),
+	ptxt(),
 	txt("Johnny and Gyro both tense up, bracing themselves for impact."),
 	txt("This time, Johnny doesn't even attempt to fire at the woman."),
 	ntxt(u, JOHNNY.BPRESSURED, SPRITEPOS.CENTER+.5),
@@ -154,7 +157,7 @@ function txt_battle() {
 	txt("Gyro hastens to his feet, still wounded from the attacks."),
 	
 	ptxt(global.textstyles.adv),
-	txt("Gyro! Don't leave this spot!", JOHNNY.BSERIOUS),
+	txt("Gyro! Don't leave this spot!", JOHNNY.BPRESSURED),
 	
 	txt("What!? She's just hitting us, over and over!", GYRO.BPRESSURED),
 	
@@ -172,7 +175,7 @@ function txt_battle() {
 	txt("...Your 'steel balls'.", JOHNNY.BNEUTRAL),
 	txt("You can't 'spin' them, but can you 'roll' them?", JOHNNY.BNEUTRAL),
 	
-	txt("Hah? What is this, Bowling? That won't do anything.", GYRO.BSERIOUS),
+	txt("Hah? What is this, bowling? That won't do anything.", GYRO.BSERIOUS),
 	
 	txt("I know, but do it anyway.", JOHNNY.BNEUTRAL),
 	txt("'Roll' a ball toward Kitou Hakurei... I need to see something.", JOHNNY.BNEUTRAL),
@@ -203,6 +206,7 @@ function txt_battle() {
 	ntxt(u, KITOU.NEUTRAL, SPRITEPOS.RIGHT),
 	txt("They both turn around, but they don't look at Kitou. Instead, their eyes latch onto the 'steel ball' Gyro threw."),
 	txt("Despite the weak throw, it was still moving. Just like the 'stone' from before, it glided across the surface effortlessly."),
+	ptxt(),
 	txt("So effortlessly... that it did not even 'turn' as it did so. Only with the slight roll it gained as it left Gyro's hand, the ball uncannily slid across the forest floor."),
 	txt("Even after Kitou herself stopped, the ball kept moving."),
 	
@@ -220,9 +224,10 @@ function txt_battle() {
 	txt("That's the power of my magic, 「Path of Lies」.", KITOU.NEUTRAL),
 	txt("I don't like to look down on people, but outside-world mages...", KITOU.NEUTRAL),
 	txt("Even if they know what this ability is, they don't know how to defend against it.", KITOU.NEUTRAL),
-	ntxt(u, PATHOFLIES.NOTHING, SPRITEPOS.CENTER),
+	ntxt(u, PATHOFLIES.NORMAL, SPRITEPOS.RIGHT),
 	txt("Do you think you're any different...?", KITOU.SMUG),
 	
+	ntxt(u, PATHOFLIES.NOTHING, SPRITEPOS.RIGHT),
 	txt("...Johnny.", GYRO.BSERIOUS),
 	txt("That's what she's done to my 'steel balls'!", GYRO.BSERIOUS),
 	txt("When she first passed by us, she must have touched my 'balls'!", GYRO.BSERIOUS),
@@ -256,17 +261,19 @@ function txt_battle() {
 	txt("He would be an easier target, but that didn't matter to him. He wasn't 'someone who was defending' anymore."),
 	ntxt(u, JOHNNY.DETERMINED),
 	txt("In the moment that Gyro had acknowledged his 'realization', Johnny became an 'attacker'."),
+	ptxt(),
 	txt("Just before Kitou passed them with a strike, as she was paying the least attention to the road in front of her, Johnny shot a 'nail bullet'."),
 	
 	ptxt(global.textstyles.adv),
 	ntxt(u, TUSK.NORMAL, SPRITEPOS.CENTER+.1),
-	ntxt(u, TUSK.NORMAL, SPRITEPOS.CENTER+.5),
+	ntxt(u, TUSK.NORMAL, SPRITEPOS.MIDRIGHT+.1),
 	txt("「Tusk」!", JOHNNY.BFIRING),
 	
 	ptxt(global.textstyles.nvl),
 	txt("But instead of aiming at the enemy herself, he aimed it to the ground... in front of Kitou's path of movement, and just slightly to the side."),
 	txt("A 'vortex', a lasting 'spin' transfered from Johnny's 'nail bullet' to the ground, began to grow."),
 	txt("The earth around it twisted, imprinting a curve of sorts on the forest floor."),
+	ptxt(),
 	txt("At the same time, Kitou whipped between the two men, drawing a wide cut down Johnny's side."),
 	txt("The two men were beginning to become severely injured, but they felt nothing about it."),
 	txt("That was simply one of the 'occurrences' along this path called the 'Steel Ball Run' race."),
@@ -288,6 +295,7 @@ function txt_battle() {
 	ntxt(u, JOHNNY.BPRESSURED, 5),
 	ntxt(u, GYRO.BSERIOUS, SPRITEPOS.MIDRIGHT),
 	ntxt(u, KITOU.PRESSURED, SPRITEPOS.LEFT),
+	ntxt(u, TUSK.NORMAL, 6),
 	txt("Rushing to his feet, Gyro Zeppeli dashed toward the fallen woman."),
 	txt("While he was trained in classical martial arts..."),
 	ntxt(u, GYRO.BNEUTRAL, SPRITEPOS.CENTER+.1),
@@ -308,7 +316,7 @@ function txt_battle() {
 	ntxt(u, KITOU.ANGRY, SPRITEPOS.CENTER),
 	ntxt(u, PATHOFLIES.NOTHING, SPRITEPOS.LEFT+.5-.5),
 	txt("Leaping from the tree and pulling back her staff, Kitou flies toward Gyro..."),
-	ntxt(u, GYRO.BPRESSURED, SPRITEPOS.CENTER+.5),
+	ntxt(u, GYRO.BPRESSURED, SPRITEPOS.MIDRIGHT),
 	txt("And tears across his shoulder to his hip before landing on the man and pinning him to his back."),
 	
 	ptxt(global.textstyles.adv),
@@ -326,12 +334,12 @@ function txt_battle() {
 	txt("Are you stupid?", KITOU.PRESSURED),
 	txt("Just drop out! You don't need to fight to the death about this race.", KITOU.ANGRY),
 	
-	txt("...", GYRO.BJOJO),
+	txt("...", GYRO.BSERIOUS),
 	txt("Lady... I don't know why you're here.", GYRO.BJOJO),
 	txt("Are you trying to tell me you \"don't think anyone should die here\"?", GYRO.BJOJO),
 	txt("Did you approach us without even something important enough to you to kill, or die for...?", GYRO.BJOJO),
 	txt("Do you just want a play-fight?", GYRO.BJOJO),
-	txt("In a way, I'm more offended than I have been until now, when everyone was \"earnestly trying to kill us\".", GYRO.BJOJO),
+	txt("In a way, I'm more offended than I have been until now, when everyone was 'earnestly trying to kill us'.", GYRO.BJOJO),
 	
 	txt("What!?", KITOU.SHOCKED),
 	txt("I'm telling you that you don't have to die here!", KITOU.PRESSURED),
@@ -341,25 +349,28 @@ function txt_battle() {
 	txt("But no matter what you did, you would have been defeated by 'him' if that was your idea of this fight from the start.", GYRO.BJOJO),
 	
 	ptxt(global.textstyles.nvl),
-	ntxt(u, TUSK.NORMAL, 9),
-	ntxt(u, TUSK.NORMAL, SPRITEPOS.RIGHT+.5),
+	ntxt(u, TUSK.NORMAL, SPRITEPOS.RIGHT+.9),
 	ntxt(u, JOHNNY.BFIRING, SPRITEPOS.RIGHT),
-	ntxt(u, GYRO.BJOJO, SPRITEPOS.LEFT+.5),
+	ntxt(u, GYRO.BJOJO, SPRITEPOS.MIDLEFT),
 	ntxt(u, KITOU.PRESSURED, SPRITEPOS.LEFT),
 	txt("Still pinned to the ground, Gyro turns his head toward Johnny. In curiosity, Kitou follows."),
 	txt("On his right hand, two of his fingers are 'spinning', in preparation to fire. His left index finger and his left pinky."),
+	ptxt(),
 	txt("He stares deeply and wordlessly in the direction of Gyro and Kitou."),
 	txt("But he does not stare at them."),
 	txt("He is looking for a specific point... a very specific location that will let him achieve what he desires from this 'shot'."),
+	ptxt(),
 	txt("Not 'too close' to Kitou, so that she would feel the need to 'dodge'."),
 	txt("Not 'too low' to the ground, so that Gyro isn't hurt."),
 	txt("Not 'too far' so that the effect is weak..."),
 	txt("Just past her back."),
+	ptxt(),
 	txt("He does not care that Kitou has been made aware of his 'preperation'."),
 	txt("No, the opposite, he thanks Gyro for her attention."),
 	txt("This attack has been designed to catch someone confident like her."),
 	txt("The more she is aware of it, the more she will be susceptible to it."),
 	txt("Still, with unchanging expression, his two shots fire as aimed."),
+	ptxt(),
 	txt("...Yes, they fire behind Kitou. Their path doesn't intersect with a person, the ground, or even a tree."),
 	txt("These two nails are on a collision course with 'eachother'."),
 	txt("With very slight inward-turned angles, they collide right behind Kitou's back, and begin to form a 'vortex'."),

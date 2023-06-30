@@ -78,6 +78,7 @@
     {"id":{"name":"simulate","path":"scripts/simulate/simulate.yy",},},
     {"id":{"name":"s_null","path":"sprites/s_null/s_null.yy",},},
     {"id":{"name":"lapp","path":"scripts/lapp/lapp.yy",},},
+    {"id":{"name":"s_usocutin","path":"sprites/s_usocutin/s_usocutin.yy",},},
     {"id":{"name":"o_intro","path":"objects/o_intro/o_intro.yy",},},
     {"id":{"name":"keyname","path":"scripts/keyname/keyname.yy",},},
     {"id":{"name":"array_compose","path":"scripts/array_compose/array_compose.yy",},},

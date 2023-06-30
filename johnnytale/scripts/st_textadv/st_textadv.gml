@@ -3,13 +3,12 @@ function st_textadv() {
 	//draw_set_font(talkers[0].font);
 	draw_set_font(font);
 	draw_self();
-	draw_set_color(talkers[0].namecolor);
+	draw_set_color(#551809);
 	draw_set_halign(fa_center);
-	doblue
-		draw_text(namepos.x+blue, namepos.y+blue, talkers[0].displayname);
-	endblue
+	draw_text(namepos.x, namepos.y, talkers[0].displayname);
+	
 	draw_set_halign(fa_left);
-	draw_set_color(c_white);
+	draw_set_color(#551809);
 	
 	var xpos = 0;
 	var lb = 0;
@@ -51,7 +50,7 @@ function st_textadv() {
 	}
 	if charpos >= string_length(msg[talkpos].text) {
 		//log(x+width/2, y+height);
-		draw_meaning(x+width/2, y+height, "*", u, u, u, u, easemult(ac_sin, waitcount, 200, .3)+.5);
+		//draw_meaning(x+width/2, y+height, "*", u, u, u, u, easemult(ac_sin, waitcount, 200, .3)+.5);
 	}
 	draw_set_color(c_white);
 	draw_set_alpha(1);

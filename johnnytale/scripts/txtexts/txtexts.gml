@@ -1,4 +1,4 @@
-function ntxt(wait_=0, sprite_=global.textguy[$"nothingman"].NOTHING, spritepos_=SPRITEPOS.HIDDEN, event_=c_null) {
+function ntxt(wait_=0, sprite_=global.textguy[$"nothingman"].NOTHING, spritepos_=SPRITEPOS.REPLACE, event_=c_null) {
 	return {
 		action: function(tid) {
 			tid.wait = real(wait);
@@ -40,7 +40,7 @@ function btxt(backgrounds=[], foregrounds=[], supergrounds=[], bglogic=c_null, f
 	return me;
 }
 
-function ptxt(style=global.textstyles.nvl) {
+function ptxt(style="default") {
 	return {
 		action: function(tid) {
 			tid.backlog = [];
@@ -57,7 +57,9 @@ function ptxt(style=global.textstyles.nvl) {
 			tid.font = style.font;
 			tid.draw = method(tid, style.type);
 			tid.style = style;*/
-			textbox_set_style(style);
+			if style != "default" {
+				textbox_set_style(style);
+			}
 		},
 		type: "ptxt",
 		style: style,

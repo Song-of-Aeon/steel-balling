@@ -1,5 +1,5 @@
 #macro KITOU global.textguy[$"kitou"]
-nu chardata("kitou", "Kitou", s_kitou, se_sans, .65);
+nu chardata("kitou", "Kitou", s_kitou, se_sans, 1);
 KITOU.addspr("NEUTRAL");
 KITOU.addspr("ANGRY");
 KITOU.addspr("PRESSURED");

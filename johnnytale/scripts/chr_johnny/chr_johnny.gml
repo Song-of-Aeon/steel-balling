@@ -1,5 +1,5 @@
 #macro JOHNNY global.textguy[$"johnny"]
-nu chardata("johnny", "Johnny", s_johnny, se_sans, .65);
+nu chardata("johnny", "Johnny", s_johnny, se_sans, 1);
 JOHNNY.addspr("NEUTRAL");
 JOHNNY.addspr("HAPPY");
 JOHNNY.addspr("SURPRISED");

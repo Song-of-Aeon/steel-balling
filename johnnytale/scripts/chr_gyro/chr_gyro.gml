@@ -1,5 +1,5 @@
 #macro GYRO global.textguy[$"gyro"]
-nu chardata("gyro", "Gyro", s_gyro, se_sans, .65);
+nu chardata("gyro", "Gyro", s_gyro, se_sans, 1.3);
 GYRO.addspr("NEUTRAL");
 GYRO.addspr("SMUG");
 GYRO.addspr("SERIOUS");

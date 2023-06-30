@@ -2,6 +2,26 @@ function txt_confrontation() {
 	
 	msg = msglang([
 	
+	btxt(u, u, u, u, u, function() {
+		statish("fade", 100);
+		statish("standfade", 7 sec);
+		
+		if standfade {
+			fade--;
+			standfade--;
+		
+			draw_clear(c_black);
+			draw_spr(0, 0, s_johnnycutin, u, u, u, u, u, standfade/100);
+			draw_set_color(c_black);
+			draw_set_alpha(fade/100);
+			draw_rectangle(0, 0, 1920, 1080, false);
+			draw_set_alpha(1);
+			draw_set_color(c_white);
+		}
+	}),
+	ntxt(6.5 sec),
+	NOD,
+	
 	txt("His gaze silent, the man rises from his spot aside the pond."),
 	
 	ptxt(global.textstyles.adv),
@@ -100,6 +120,7 @@ function txt_confrontation() {
 	ptxt(global.textstyles.nvl),
 	txt("Bantering like this for a while, the two racers continued riding through the plains of the American midwest."),
 	txt("Johnny had nearly forgotten about his wariness from before."),
+	ptxt(),
 	txt("Did Gyro Zeppeli intend for that?"),
 	txt("Was it his 'kindess' to let Johnny forget?"),
 	txt("Or was he truly just such a whimsical man?"),
@@ -169,6 +190,7 @@ function txt_confrontation() {
 	txt("Was he trying to discern their intent, or merely lock his aim?"),
 	ntxt(u, JOHNNY.FIRING),
 	txt("He raises his hand, preparing to 'fire'."),
+	ptxt(),
 	txt("1... 2, 3."),
 	txt("From Johnny's right hand, three 'bullets' fire."),
 	txt("Unfortunately, none of them can land before the person once again flies between the horses."),
@@ -203,25 +225,6 @@ function txt_confrontation() {
 	txt("The loser will accept 'disqualification', and leave this competition.", KITOU.NEUTRAL),
 	txt("Your opponent is 'Kitou Hakurei', shrine maiden of paradise.", KITOU.SMUG),
 	
-	btxt(u, u, u, u, u, function() {
-		statish("fade", 100);
-		statish("standfade", 7 sec);
-		
-		if standfade {
-			fade--;
-			standfade--;
-		
-			draw_clear(c_black);
-			draw_spr(0, 0, s_tuskcutin, u, u, u, u, u, standfade/100);
-			draw_set_color(c_black);
-			draw_set_alpha(fade/100);
-			draw_rectangle(0, 0, 1920, 1080, false);
-			draw_set_alpha(1);
-			draw_set_color(c_white);
-		}
-	}),
-	ntxt(6.5 sec),
-	NOD,
 	
 	//txt("[STAND CUTIN: TUSK]
 	

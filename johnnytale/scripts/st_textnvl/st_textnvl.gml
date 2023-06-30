@@ -8,7 +8,7 @@ function st_textnvl() {
 	var ftheight = string_size("O").y;
 	var textheight = (string_count("#", string_copy(msg[talkpos].text, 1, charpos))+1)*ftheight;
 	iterate backlog to {
-		textheight += (string_count("#", backlog[i].text)+1)*ftheight;
+		textheight += (string_count("#", backlog[i].text)+1.5)*ftheight;
 	}
 	
 	while textheight >= height {
@@ -92,7 +92,7 @@ function st_textnvl() {
 	}
 	if charpos >= string_length(msg[talkpos].text) {
 		//log(x+width/2, y+height);
-		draw_meaning(x+width/2, y+height, "*", u, u, u, u, easemult(ac_sin, waitcount, 200, .3)+.5);
+		//draw_meaning(x+width/2, y+height, "*", u, u, u, u, easemult(ac_sin, waitcount, 200, .3)+.5);
 	}
 	draw_set_color(c_white);
 	draw_set_alpha(1);

@@ -8,14 +8,38 @@ function txt_conversation() {
 	//txt("Capable of easing friction
 	//txt("A confident human from a distinguished Eastern dynasty of overseers. She left her daughter and her country in order to tackle the 'Steel Ball Run' race.
 	
+	btxt(u, u, u, u, u, function() {
+		statish("fade", 100);
+		statish("standfade", 7 sec);
+		
+		if standfade {
+			fade--;
+			standfade--;
+		
+			draw_clear(c_black);
+			draw_spr(0, 0, s_kitoucutin, u, u, u, u, u, standfade/100);
+			draw_set_color(c_black);
+			draw_set_alpha(fade/100);
+			draw_rectangle(0, 0, 1920, 1080, false);
+			draw_set_alpha(1);
+			draw_set_color(c_white);
+		}
+	}),
+	ntxt(6.5 sec),
+	NOD,
+	
 	txt("Three months before the 'Steel Ball Run' race, a certain 'important person' was led astray..."),
+	ptxt(),
+	ntxt(u, KITOU.NEUTRAL, SPRITEPOS.CENTER+.1),
 	txt("In a small valley country on a small eastern island, a shrine maiden plans to make changes to the world."),
 	txt("She lead an initiative called the \"Human Expansion Project\", with the cooperation of the Tengu in that country."),
 	txt("It aimed to integrate their societies, strengthening and giving freedom to both species."),
+	ptxt(),
 	txt("...Such was how she saw it."),
 	
 	ptxt(global.textstyles.kitou),
-	txt("Good afternoon, Kitou.", YUKARI.QUIZZICAL),
+	ntxt(u, KITOU.SHOCKED, SPRITEPOS.MIDLEFT),
+	txt("Good afternoon, Kitou.", YUKARI.QUIZZICAL, SPRITEPOS.RIGHT),
 	txt("I would like to have a talk with you.", YUKARI.STERN),
 	
 	txt("Oh, for cripes' sake...", KITOU.NEUTRAL),
@@ -53,6 +77,7 @@ function txt_conversation() {
 	//txt("//"I probably shouldn't have said all of those things."
 	//txt("//""
 	
+	
 	ptxt(global.textstyles.kitounvl),
 	txt("She was 'led astray'..."),
 	txt("The 'Hakurei' in her was led astray by the 'Kitou' in her."),
@@ -67,19 +92,30 @@ function txt_conversation() {
 	
 	//txt("//"It never was."
 	
+	//ntxt(u, KITOU.NOTHING, SPRITEPOS.LEFT),
+	ntxt(u, YUKARI.NOTHING, SPRITEPOS.MIDRIGHT),
+	
 	ptxt(global.textstyles.kitounvl),
+	ntxt(u, KITOU.ANGRY, SPRITEPOS.CENTER+.1),
 	txt("That youkai, Yukari Yakumo..."),
 	txt("She showed up a few more times after that, to try and convince me otherwise."),
 	txt("She was always so composed, but even I could tell she was getting desperate."),
+	ptxt(),
 	txt("In our final argument, she simply stared at me."),
 	txt("It might have been my imagination, but before she wordlessly disappeared..."),
 	txt("I think I saw a single tear in her eye."),
+	ptxt(),
 	txt("The next day, she showed up, formal as usual."),
 	txt("She said that if I was really going to go through with this, I would need to speak the language of the Tengu."),
+	ptxt(),
+	ntxt(u, KITOU.PRESSURED),
 	txt("I needed capital."),
 	txt("It's true that I had some reservations about working with them, and their culture of status and wealth was one of them."),
 	txt("With enough money, I could buy certain humans into power..."),
 	txt("She told me of a great competition, across the ocean."),
+	ptxt(),
+	ntxt(u, KITOU.NOTHING, SPRITEPOS.LEFT+.5),
+	ntxt(u, YUKARI.NOTHING, SPRITEPOS.CENTER),
 	txt("I would leave the safety of the new great barrier, open amongst the people of the outside world, but it would be worth it."),
 	txt("Yukari Yakumo would oversee my extended stay outside, in case I needed to be brought back home for anything important, and I would collect the equivalent of one hundred million Yen."),
 	
@@ -89,7 +125,7 @@ function txt_conversation() {
 	txt("What is it?", KITOU.NEUTRAL),
 	
 	txt("Before we depart for this race, I must make two 'changes' to you.", YUKARI.STERN),
-	txt("Is that acceptable?", YUKARI.HAPPY),
+	txt("Is that acceptable?", YUKARI.HAPPY, SPRITEPOS.MIDRIGHT),
 	
 	txt("Not at all? What sort of changes?", KITOU.PRESSURED),
 	
@@ -111,7 +147,7 @@ function txt_conversation() {
 	
 	txt("She will.", YUKARI.SMUG),
 	txt("It will no doubt be good training for her, protecting the shrine on her own.", YUKARI.SMUG),
-	txt("She will one day take over the shrine, you know.", YUKARI.HAPPY),
+	txt("She will one day take over the work, you know.", YUKARI.HAPPY),
 	
 	txt("I know.", KITOU.PRESSURED),
 	txt("I know she's strong, too. I just hate to be so far away...", KITOU.PRESSURED),
@@ -119,11 +155,11 @@ function txt_conversation() {
 	txt("Anyway do you really have to make a second change to me? That's already quite a lot.", KITOU.ANGRY),
 	
 	txt("<Oh, I suppose I don't strictly have to.>", YUKARI.HAPPY),
-	txt("<How is your English, Kitou?>", YUKARI.SMUG),
+	txt("<How is your English, Kitou?>", YUKARI.SMUG, SPRITEPOS.CENTER-.5),
 	
 	txt("What...?", KITOU.PRESSURED),
 	
-	txt("...Language. In that country, <English> is spoken.", YUKARI.HAPPY),
+	txt("...Language. In that country, <English> is spoken.", YUKARI.HAPPY, SPRITEPOS.MIDRIGHT),
 	
 	txt("Uh, sure, whatever. Don't forget to fix me later.", KITOU.PRESSURED),
 	
@@ -137,44 +173,61 @@ function txt_conversation() {
 	txt("<Oh. Words are different.>", KITOU.SHOCKED),
 	txt("<Anyway, what? Just take me across the ocean yourself.>", KITOU.ANGRY),
 	
-	txt("<You'll need to become acquainted with the outside world culture, won't you?>", YUKARI.HAPPY),
+	txt("<You'll need to become acquainted with the outside world culture, won't you?>", YUKARI.HAPPY, SPRITEPOS.CENTER-.5),
 	txt("<A long ride will do you well.>", YUKARI.SMUG),
 	
 	ptxt(global.textstyles.kitounvl),
+	ntxt(u, KITOU.PRESSURED, SPRITEPOS.CENTER),
+	ntxt(u, YUKARI.NOTHING),
 	txt("She wouldn't even bring me out of the barrier herself. I had to set up a whole ritual just to pass through."),
 	txt("Acting as my translator for my own god damn language, Yukari Yakumo got us on a ship headed for North America."),
+	ntxt(u, KITOU.NEUTRAL),
 	txt("I tried talking to people on the boat, which is where I actually learned what sort of competition this was."),
 	txt("Kind old man told me it was horse-racing."),
+	ptxt(),
+	ntxt(u, KITOU.SHOCKED),
 	txt("Lucky me. I never was that great at flying, so I've always gotten around Gensokyo by riding unless I absolutely had to fly."),
 	txt("After learning that, I was able to get Yukari Yakumo to at least bring my horse here with her ability once I yelled at her enough."),
+	ptxt(),
+	ntxt(u, KITOU.NEUTRAL),
 	txt("It was a long ride, but I didn't mind."),
 	txt("Talking to outsiders was interesting."),
 	txt("I started messing around with my new ability on the boat, and nobody seemed to notice."),
 	txt("It made sense that there wouldn't be that many mages in the outside world..."),
 	txt("And even among them, I should be the strongest."),
+	ptxt(),
 	txt("I've lived with magic my whole life."),
 	txt("My 'ability to manipulate friction'..."),
 	txt("It's second nature to me and my horse."),
+	ptxt(),
+	ntxt(u, KITOU.SMUG),
 	txt("Because of that, I couldn't help but think that this 'race' was nothing but guaranteed to end in my victory."),
 	txt("I would have stood out if I brazenly used my ability to speed to the finish..."),
+	ptxt(),
+	ntxt(u, KITOU.NEUTRAL),
 	txt("So I stood back and picked off racers comfortably."),
 	txt("None of them stood a chance, even out of the few mages I met."),
 	txt("The 'magic' out here seems to be bound by conditions... since Yukari Yakumo's meddling, even I can only apply my ability by touch."),
 	txt("I thought I would go and start getting some of the top-ranking racers to drop out, so I picked this pair..."),
+	ptxt(),
+	ntxt(u, KITOU.PRESSURED),
 	txt("But what the hell is this?"),
 	txt("That 'rotation'...!"),
 	txt("That boy is summoning it with his magic, but I can tell."),
 	txt("It 'isn't magic itself'!"),
-	txt("The boy is using it with magic, and the idiot is using it with a technology, that steel ball."),
+	txt("The boy is using it with magic, and the idiot is trying to use it with a technology, that steel ball."),
+	ptxt(),
 	txt("It's something like a 'universal constant'."),
 	txt("Something that didn't come to existence with 'magic' or 'technology', but can be used by both."),
 	txt("A force like 'gravity' or an existence like 'light'. That's what that rotation is."),
+	ptxt(),
+	ntxt(u, KITOU.ANGRY),
 	txt("What the hell!?"),
 	txt("Yukari Yakumo didn't-"),
 	txt("She-"),
 	
 	ptxt(global.textstyles.kitou),
-	txt("Damn it!", KITOU.PRESSURED),
+	txt("Damn it!", KITOU.BPRESSURED),
 	
 	//txt("the tengu wanted to expand their influence to the human village, so they began negotiations to allow tengu to live in the human villange and humans on the youkai mountain.
 	//txt("kitou approved of this, and moved forward with the project.

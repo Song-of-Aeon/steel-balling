@@ -61,6 +61,7 @@ function txt_stoneskipping() {
 	txt("It is a 'technique' that can be learned by anyone, but is known only to certain people."),
 	txt("The Spin is capable of 'rotating' anything and 'transfering that rotation' to other things."),
 	txt("...It is a skill \"capable of commanding rotation\"."),
+	ptxt(),
 	txt("Gyro Zeppeli has come from a long line of its practitioners... and Johnny Joestar is learning it as this race goes on."),
 	txt("At this moment, Johnny Joestar attempts to 'spin' a rough stone into a smooth one so that it will catch the water's surface well, and bounce across the pond."),
 	txt("Carefully but swiftly, the jagged edges are eroded down into a calm surface."),
@@ -95,6 +96,7 @@ function txt_stoneskipping() {
 	txt("Johnny releases the stone upon the pond, with the best throw he can muster."),
 	txt("It skips along the water in broad jumps, bounding without losing any speed at all."),
 	txt("As it reaches the other side's shoreline, it slides against the sand and is launched upwards, striking a boy square in the teeth."),
+	ptxt(),
 	txt("Bleeding from his gums, the boy falls over, as the other children squeal and run away."),
 	txt("Johnny is left speechless, arm still outreached from when he tossed the stone."),
 	

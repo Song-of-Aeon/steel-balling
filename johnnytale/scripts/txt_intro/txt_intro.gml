@@ -13,7 +13,9 @@ function txt_intro() {
 	txt("Some of them don't tell you who they were written by, so probably Yukari."),
 	ptxt(),
 	txt("This time, I found an unusual pair of books."),
-	txt("Hidden under a cloth, I found \"The Steel Ball Run Race - Complete Record\" by someone I had never heard of, and \"The Steel Ball Run Race - Hakurei Record\" by nobody at all."),
+	txt("Hidden under a cloth, I found..."),
+	txt("\"The Steel Ball Run Race - Complete Record\" by someone I had never heard of,"),
+	txt("and \"The Steel Ball Run Race - Hakurei Record\" by nobody at all."),
 	txt("They were both very high quality leather books. Either produced in the outside world, or by a pretty penny tossed the Kappa's way."),
 	txt("The former was emblazoned with an unfamiliar crest, and the latter with a yin-yang orb."),
 	txt("I could tell this was going to be a long one, so I grabbed some dried fruits before I started reading."),
@@ -26,28 +28,31 @@ function txt_intro() {
 	txt("'Jonathan Joestar'."),
 	
 	ptxt(),
-	CLO,
+	//CLO,
 	ntxt(5 sec, u, u, function() {
 		music_set(mus.null);
 		textbox_set_style(global.textstyles.nvl);
 	}),
-	DECLO,
+	//DECLO,
 		
 	txt("Jonathan \"Johnny\" Joestar."),
 	txt("A man traveling across America in participation with a certain competition."),
 	txt("A former famous horse jockey fallen from popularity after becoming lame in an unfortunate incident, he now rides his horse, \"Slow Dancer\" in pursuit of something important to him."),
+	ptxt(),
 	txt("Is that thing 'power'? 'Money'?"),
 	txt("It is, but it is not."),
 	txt("Not even he would be able to tell you for certain."),
+	ptxt(),
 	txt("Inspired by and riding alongside a charismatic man, he will remain in pursuit even with death and blood strewn along every road."),
 	txt("He and that charismatic man, Gyro Zeppeli, have been making use of a certain 'power' to survive thus far."),
 	txt("That power..."),
 	txt("..."),
+	ptxt(),
 	txt("Oh, they're finally waking up."),
 	txt("Treat them kindly. They have endured a long, awful battle."),
 	
 	ptxt(global.textstyles.adv),
-	txt("Gyro...", JOHNNY.WORRIED), //begin quote from final chapter of in a silent way
+	txt("Gyro...", JOHNNY.NOTHING), //begin quote from final chapter of in a silent way
 	txt("Gyro!", JOHNNY.PRESSURED, SPRITEPOS.LEFT),
 	
 	ptxt(global.textstyles.nvl),
@@ -55,7 +60,7 @@ function txt_intro() {
 	txt("Thanks to a passerby's help, they've recovered from their deep, deep wounds."),
 	
 	ptxt(global.textstyles.adv),
-	txt("Ugh...", GYRO.PRESSURED),
+	txt("Ugh...", GYRO.NOTHING),
 	
 	txt("He- his spray...", JOHNNY.WORRIED),
 	txt("He fixed... our 'wounds'.", JOHNNY.WORRIED),
