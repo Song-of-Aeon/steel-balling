@@ -2,8 +2,7 @@ function txt_confrontation() {
 	
 	msg = msglang([
 	
-	btxt(bk_marsh),
-	btxt(u, u, u, u, u, function() {
+	btxt(bk_marsh, u, u, u, u, function() {
 		statish("fade", 100);
 		statish("standfade", 7 sec);
 		
@@ -46,9 +45,10 @@ function txt_confrontation() {
 	
 	ptxt(global.textstyles.nvl),
 	ntxt(u, GYRO.SMUG, SPRITEPOS.CENTER),
+	ntxt(u, JOHNNY.NEUTRAL),
 	txt("Gyro Zeppeli sweeps Johnny from the muddy poolside."),
-	ntxt(u, JOHNNY.NEUTRAL, SPRITEPOS.LEFT),
 	ntxt(u, GYRO.SMUG, .5),
+	ntxt(u, JOHNNY.NEUTRAL, SPRITEPOS.LEFT),
 	txt("Stepping widely around Slow Dancer's back, Gyro swiftly and smoothly releases Johnny upon the steed."),
 	ntxt(u, GYRO.NEUTRAL, SPRITEPOS.CENTER),
 	txt("Once Gyro was mounted as well, they continued their travels."),
@@ -184,7 +184,7 @@ function txt_confrontation() {
 	txt("They're moving a bit slower this time... just slow enough for the men to notice her short staff."),
 	
 	ptxt(global.textstyles.adv),
-	txt("Johnny! She's got a weapon!", GYRO.SERIOUS),
+	txt("Johnny! They've got a weapon!", GYRO.SERIOUS),
 	txt("Cover Yourself!", GYRO.SERIOUS),
 	
 	ptxt(global.textstyles.nvl),
@@ -198,7 +198,7 @@ function txt_confrontation() {
 	txt("1... 2, 3."),
 	txt("From Johnny's right hand, three 'bullets' fire."),
 	txt("Unfortunately, none of them can land before the person once again flies between the horses."),
-	ntxt(u, KITOU.ANGRY, 5),
+	ntxt(u, KITOU.ANGRY, 7.5),
 	txt("With a quick swipe of the shortstaff, Johnny is knocked off of his horse."),
 	
 	ptxt(global.textstyles.adv),
@@ -234,7 +234,7 @@ function txt_confrontation() {
 	//txt("[STAND CUTIN: TUSK]
 	
 	//txt("[Stand user: Jonathan "Johnny" Joestar]
-	//txt("[Stand name: 「Tusk」]
+	//txt("[Stand name: [Tusk」]
 	//txt("[Allows Johnny to 'spin' his fingernails and fire them as bullets. They grow back within a few minutes, but he only has ten.]
 	//txt("[In addition, Johnny has recently learned how to transfer the spin from his nails to its targets, allowing him to create a dangerous vortex whereever he hits.]
 	

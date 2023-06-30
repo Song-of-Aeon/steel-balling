@@ -62,7 +62,7 @@ function txt_aoi() {
 	ntxt(u, KITOU.BANGRY),
 	ntxt(u, PATHOFLIES.NORMAL, SPRITEPOS.CENTER+.1),
 	ntxt(u, PATHOFLIES.NORMAL, SPRITEPOS.MIDRIGHT+.5),
-	txt("Still, Kitou brings out her 'stand'. 「Path of Lies」."),
+	txt("Still, Kitou brings out her 'stand'. [Path of Lies]."),
 	ntxt(u, KITOU.BNEUTRAL),
 	txt("She will use her 'ability'. She is \"capable of easing friction\"."),
 	ptxt(),
@@ -88,7 +88,7 @@ function txt_aoi() {
 	txt("I don't know what she said, I don't know how she said it."),
 	txt("That much doesn't have to be seen."),
 	ptxt(),
-	btxt(),
+	btxt(bk_forest),
 	ntxt(u, KITOU.CRYING),
 	txt("But I know that as the gap closed, tears streaming down her face, she allowed herself to slump back in front of that tree."),
 	
@@ -98,7 +98,7 @@ function txt_aoi() {
 	txt("...", KITOU.NOTHING),
 	
 	ptxt(),
-	txt("With no response, she stares forward into the vast forest."),
+	txt("Not expecting a response, she stares forward into the vast forest."),
 	txt("Slowly, her gaze shifts upward."),
 	ptxt(),
 	txt("She wonders if another Hakurei has ever seen the sky of this country... if another human from Gensokyo will be ever able to be so free as to do so."),

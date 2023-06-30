@@ -24,10 +24,11 @@ function st_textadv() {
 	angle = 0;
 	alpha = 1;
 	color = #551809;
-	color2 = #551809;
+	color2 = #8A3642; //93CEFA
 	textpos = new vec2();
 	wiggle = new vec2();
 	shake = new vec2();
+	var mode = false;
 	var mychar = "";
 	//log(tevents);
 	for (i=1; i<=charpos; i++) {
@@ -38,14 +39,30 @@ function st_textadv() {
 		textpass();
 		textpos.y -= ftheight*(size-1)/2;
 		textpos.y += 7;
+		
+		var str = msg[talkpos].text;
+		if !mode {
+			if string_copy(str, i, 2) == " '" || string_copy(str, i, 2) == "#'" || (i == 1 && string_char_at(str, i) == "'") {
+				mode = true;
+			}
+		}// else {
+			
+		//}
+		
+		
 	    if mychar = "#" {
 	        lb++;
 	        xpos = 0;
 	    } else if lb >= 0 {
-			draw_set_color(color);
+			draw_set_color(mode ? color2 : color);
 			draw_set_alpha(alpha);
 			draw_text_transformed(textpos.x, textpos.y, mychar, size, size, angle);
 			xpos += string_width(mychar)*size;
+		}
+		if mode {
+			if array_contains_string(["' ", "'.", "',", "';", "'!", "'?", "'\"", "'-"], string_copy(str, i, 2)) {
+				mode = false;
+			}
 		}
 	}
 	if charpos >= string_length(msg[talkpos].text) {

@@ -2,8 +2,7 @@ function txt_victory() {
 	
 	msg = msglang([
 	
-	btxt(bk_forest),
-	btxt(u, u, u, u, u, function() {
+	btxt(bk_forest, u, u, u, u, function() {
 		statish("fade", 100);
 		statish("standfade", 7 sec);
 		
@@ -23,8 +22,8 @@ function txt_victory() {
 	ntxt(6.5 sec),
 	
 	
-	txt("The black hole tears at Kitou Hakurei's back, shredding her clothing and clawing her hair."),
-	txt("She tries to get closer to the ground, but Gyro is in the way. He tries to buck her off, but her enhanced-friction grip isn't letting out."),
+	txt("The black hole tears at Kitou Hakurei's back, shredding her clothing and clawing at her hair."),
+	txt("She tries to get closer to the ground, but Gyro is in the way. He tries to buck her off, but her friction-enhanced grip isn't letting out."),
 	txt("Instead, he just starts punching her."),
 	txt("She can do nothing but accept it, with her hands taken by her grip on him, desperate to stay even slightly further away from the 'vortex', even as it whips the skin from her back."),
 	

@@ -16,7 +16,7 @@ function txt_intro() {
 	txt("Hidden under a cloth, I found..."),
 	txt("\"The Steel Ball Run Race - Complete Record\" by someone I had never heard of,"),
 	txt("and \"The Steel Ball Run Race - Hakurei Record\" by nobody at all."),
-	txt("They were both very high quality leather books. Either produced in the outside world, or by a pretty penny tossed the Kappa's way."),
+	txt("They were both very high quality leather books. Either produced in the outside world, or by a pretty penny tossed the kappa's way."),
 	txt("The former was emblazoned with an unfamiliar crest, and the latter with a yin-yang orb."),
 	txt("I could tell this was going to be a long one, so I grabbed some dried fruits before I started reading."),
 	txt("As I opened the books, the stories of countless people and places fell upon me."),
@@ -72,7 +72,7 @@ function txt_intro() {
 	txt("...", GYRO.SERIOUS, SPRITEPOS.MIDRIGHT),
 	txt("Peh.", GYRO.PRESSURED),
 	txt("Do you really think that's possible? Johnny.", GYRO.SERIOUS),
-	txt("\"Hot Pants\"... He might be a good guy, but she's 'someone willing to keep racing'.", GYRO.SERIOUS),
+	txt("\"Hot Pants\"... He might be a good guy, but he's 'someone willing to keep racing'.", GYRO.SERIOUS),
 	txt("Anybody still doing this thing is someone who should be feared.", GYRO.SERIOUS),
 	
 	txt("...", JOHNNY.PRESSURED),

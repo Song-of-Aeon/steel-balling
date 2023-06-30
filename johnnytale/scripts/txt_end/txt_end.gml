@@ -5,7 +5,7 @@ function txt_end() {
 	ntxt(5 sec),
 	
 	txt("..."),
-	txt("I shut the book."),
+	txt("I shut the book.", u, u, function() {music_set(mus.null)}),
 	txt("I slam it shut, I pick it up, and I throw it on the ground."),
 	ptxt(),
 	txt("The \"Complete Record\" book is still open. For a while, I was flipping through it and the \"Hakurei Record\" version to compare."),

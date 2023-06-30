@@ -8,8 +8,7 @@ function txt_conversation() {
 	//txt("Capable of easing friction
 	//txt("A confident human from a distinguished Eastern dynasty of overseers. She left her daughter and her country in order to tackle the 'Steel Ball Run' race.
 	
-	btxt(s_null),
-	btxt(u, u, u, u, u, function() {
+	btxt(s_null, u, u, u, u, function() {
 		statish("fade", 100);
 		statish("standfade", 7 sec);
 		
@@ -123,10 +122,9 @@ function txt_conversation() {
 	txt("Yukari Yakumo would oversee my extended stay outside, in case I needed to be brought back home for anything important, and I would collect the equivalent of one hundred million Yen."),
 	
 	ptxt(global.textstyles.kitou),
-	ntxt(u, KITOU.NOTHING, SPRITEPOS.LEFT+.5),
-	ntxt(u, YUKARI.NOTHING, SPRITEPOS.CENTER),
 	btxt(bk_shrine),
-	txt("Kitou.", YUKARI.QUIZZICAL),
+	ntxt(u, KITOU.NEUTRAL, SPRITEPOS.LEFT+.5),
+	txt("Kitou.", YUKARI.QUIZZICAL, SPRITEPOS.CENTER),
 	
 	txt("What is it?", KITOU.NEUTRAL),
 	

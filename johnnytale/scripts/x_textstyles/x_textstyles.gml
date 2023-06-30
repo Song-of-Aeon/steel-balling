@@ -35,7 +35,7 @@ global.textstyles.future = {
 	width: 1150,
 	height: 815,
 	spriteposy: 550,
-	namepos: new vec2(-700, 7),
+	namepos: new vec2(-640, 7),
 	sprite: s_bigtext,
 	type: st_textnvl,
 	font: ft_marineconstellation,

@@ -20,7 +20,8 @@ function st_textnvl() {
 	angle = 0;
 	alpha = 1;
 	color = c_white;
-	color2 = c_white;
+	color2 = #93CEFA;
+	var mode = false;
 	textpos = new vec2();
 	var mychar = "";
 	var j;
@@ -42,14 +43,25 @@ function st_textnvl() {
 			//if(BROWSER){ //html5 does this right, vm is bugged, so we unbug it
 				textpos.y += 7	
 			//}
+			var str = backlog[j].text;
+			if !mode {
+				if string_copy(str, i, 2) == " '" || string_copy(str, i, 2) == "#'" || (i == 1 && string_char_at(str, i) == "'") {
+					mode = true;
+				}
+			}
 		    if mychar = "#" {
 		        lb++;
 		        xpos = 0;
 		    } else if lb >= 0 {
-				draw_set_color(color);
+				draw_set_color(mode ? color2 : color);
 				draw_set_alpha(alpha);
 				draw_text_transformed(textpos.x, textpos.y, mychar, size, size, angle);
 				xpos += string_width(mychar)*size;
+			}
+			if mode {
+				if array_contains_string(["' ", "'.", "',", "';", "'!", "'?", "'\"", "'-"], string_copy(str, i, 2)) {
+					mode = false;
+				}
 			}
 		}
 		draw_set_color(c_white);
@@ -60,7 +72,8 @@ function st_textnvl() {
 		angle = 0;
 		alpha = 1;
 		color = c_white;
-		color2 = c_white;
+		color2 = #93CEFA;
+		mode = false;
 		mychar = "";
 		xpos = 0;
 	}
@@ -80,14 +93,25 @@ function st_textnvl() {
 		//if(BROWSER){ //html5 does this right, vm is bugged, so we unbug it
 			textpos.y += 7	
 		//}
+		var str = msg[talkpos].text;
+		if !mode {
+			if string_copy(str, i, 2) == " '" || string_copy(str, i, 2) == "#'" || (i == 1 && string_char_at(str, i) == "'") {
+				mode = true;
+			}
+		}
 		if mychar = "#" {
 		    lb++;
 		    xpos = 0;
 		} else if lb >= 0 {
-			draw_set_color(color);
+			draw_set_color(mode ? color2 : color);
 			draw_set_alpha(alpha);
 			draw_text_transformed(textpos.x, textpos.y, mychar, size, size, angle);
 			xpos += string_width(mychar)*size;
+		}
+		if mode {
+			if array_contains_string(["' ", "'.", "',", "';", "'!", "'?", "'\"", "'-"], string_copy(str, i, 2)) {
+				mode = false;
+			}
 		}
 	}
 	if charpos >= string_length(msg[talkpos].text) {

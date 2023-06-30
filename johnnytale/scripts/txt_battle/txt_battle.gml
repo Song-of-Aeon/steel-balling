@@ -9,8 +9,7 @@ function txt_battle() {
 	//txt("[A determined human from a distinguished American family. Now disowned, he challenges the 'Steel Ball Run' race with his partner, Gyro.]
 	
 	
-	btxt(bk_forest),
-	btxt(u, u, u, u, u, function() {
+	btxt(bk_forest, u, u, u, u, function() {
 		statish("fade", 100);
 		statish("standfade", 7 sec);
 		
@@ -35,13 +34,13 @@ function txt_battle() {
 	txt("Ultimately, you want us to give up. Even if it makes you feel better about yourself, it doesn't change what you're about to try to do.", JOHNNY.NEUTRAL),
 	
 	txt("Ha! Not that you can even claim to be 'fair' after those cheap shots.", GYRO.SMUG, SPRITEPOS.MIDLEFT),
-	txt("...Let's get 'er, Johnny.", GYRO.NEUTRAL),
+	txt("...Let's get `er, Johnny.", GYRO.NEUTRAL),
 	
 	txt("Is that what you think...?", KITOU.NEUTRAL, SPRITEPOS.RIGHT),
 	txt("I didn't mean to be rude, but you're right. I don't really care.", KITOU.NEUTRAL),
 	
 	ptxt(global.textstyles.nvl),
-	ntxt(u, u, u, function() {music_set(mus.gunslinger)}),
+	ntxt(u, u, u, function() {music_set(mus.gunslingers)}),
 	txt("Staring down the woman, Johnny and Gyro prepare themselves to go on the offensive."),
 	txt("Gyro begins to slide his hand into his holster, grabbing his 'steel balls'."),
 	txt("Johnny surveys the landscape, taking note of anything that could be used during the fight."),
@@ -218,11 +217,11 @@ function txt_battle() {
 	txt("Johnny, you're telling me that this ability, that can make things 'slide' and 'retain their speed'...", GYRO.BNEUTRAL),
 	txt("It's-", GYRO.BNEUTRAL),
 	
-	txt("-'Friction'.", KITOU.SMUG),
+	txt("'Friction'.", KITOU.SMUG),
 	txt("\"Changing an object's friction\".", KITOU.SMUG),
 	ntxt(u, PATHOFLIES.NORMAL, SPRITEPOS.RIGHT),
 	ntxt(u, PATHOFLIES.NORMAL, SPRITEPOS.MIDRIGHT),
-	txt("That's the power of my magic, 「Path of Lies」.", KITOU.NEUTRAL),
+	txt("That's the power of my magic, [Path of Lies」.", KITOU.NEUTRAL),
 	txt("I don't like to look down on people, but outside-world mages...", KITOU.NEUTRAL),
 	txt("Even if they know what this ability is, they don't know how to defend against it.", KITOU.NEUTRAL),
 	ntxt(u, PATHOFLIES.NORMAL, SPRITEPOS.RIGHT),
@@ -268,7 +267,7 @@ function txt_battle() {
 	ptxt(global.textstyles.adv),
 	ntxt(u, TUSK.NORMAL, SPRITEPOS.CENTER+.1),
 	ntxt(u, TUSK.NORMAL, SPRITEPOS.MIDRIGHT+.1),
-	txt("「Tusk」!", JOHNNY.BFIRING),
+	txt("[Tusk」!", JOHNNY.BFIRING),
 	
 	ptxt(global.textstyles.nvl),
 	txt("But instead of aiming at the enemy herself, he aimed it to the ground... in front of Kitou's path of movement, and just slightly to the side."),
@@ -377,12 +376,13 @@ function txt_battle() {
 	txt("With very slight inward-turned angles, they collide right behind Kitou's back, and begin to form a 'vortex'."),
 	txt("A 'vortex' not on a surface, but floating in the air."),
 	txt("A whipping, destroying, 'black hole' begins to tear at Kitou Hakurei."),
+	ntxt(u, u, u, function() {music_set(mus.null)}),
 	
 	//txt("[STAND CUTIN: PATH OF LIES]
 	
 	//txt("[Stand user: Kitou Hakurei]
-	//txt("[Stand name: 「Path of Lies」]
-	//txt("[Anything touched by 「Path of Lies」 will have how much 'friction' it experiences modified. Typically, Kitou uses this ability on herself and her horse in order to gain speed by allowing them to simply slide along the ground without effort. By increasing the friction of her short staff, Kitou can make it a weapon capable of tearing things, even though it's blunt.]
+	//txt("[Stand name: [Path of Lies」]
+	//txt("[Anything touched by [Path of Lies」 will have how much 'friction' it experiences modified. Typically, Kitou uses this ability on herself and her horse in order to gain speed by allowing them to simply slide along the ground without effort. By increasing the friction of her short staff, Kitou can make it a weapon capable of tearing things, even though it's blunt.]
 	
 	],[
 	
@@ -391,6 +391,6 @@ function txt_battle() {
 	]);
 	
 	endevent = function() {
-		textbox_create(txt_conversation, global.textstyles.nvl);
+		textbox_create(txt_conversation, global.textstyles.kitounvl);
 	};
 }

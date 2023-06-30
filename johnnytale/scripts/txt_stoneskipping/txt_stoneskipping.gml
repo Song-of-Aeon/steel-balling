@@ -40,9 +40,10 @@ function txt_stoneskipping() {
 	
 	ptxt(global.textstyles.nvl),
 	ntxt(u, GYRO.SMUG, .5),
+	ntxt(u, JOHNNY.NEUTRAL),
 	txt("Gyro leaps from his horse, Valkyrie, and helps Johnny off of Slow Dancer."),
-	ntxt(u, JOHNNY.NEUTRAL, 1.5),
 	ntxt(u, GYRO.SMUG, SPRITEPOS.CENTER),
+	ntxt(u, JOHNNY.NEUTRAL, 1.5),
 	txt("Carrying Johnny, Gyro casually makes his way to the shore, and sets him down."),
 	ntxt(u, GYRO.SMUG, SPRITEPOS.MIDRIGHT),
 	txt("Johnny returns the kids' waves from across the pond, as Gyro begins to search for rocks."),
@@ -67,6 +68,7 @@ function txt_stoneskipping() {
 	txt("Gyro Zeppeli has come from a long line of its practitioners... and Johnny Joestar is learning it as this race goes on."),
 	txt("At this moment, Johnny Joestar attempts to 'spin' a rough stone into a smooth one so that it will catch the water's surface well, and bounce across the pond."),
 	txt("Carefully but swiftly, the jagged edges are eroded down into a calm surface."),
+	ptxt(),
 	txt("As he clenches the rock, Gyro begins to toss his stones over the onto the water."),
 	txt("They catch on the surface a few times, before losing momentum and sinking."),
 	
@@ -104,6 +106,7 @@ function txt_stoneskipping() {
 	txt("Johnny is left speechless, arm still outreached from when he tossed the stone."),
 	
 	ptxt(global.textstyles.adv),
+	ntxt(u, GYRO.SERIOUS),
 	txt("...Huh?", JOHNNY.WORRIED),
 	txt("Did I... do that?", JOHNNY.PRESSURED),
 	
