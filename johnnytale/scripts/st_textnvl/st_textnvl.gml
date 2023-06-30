@@ -28,7 +28,7 @@ function st_textnvl() {
 		draw_set_color(backlog[j].guy.namecolor);
 		draw_set_halign(fa_right);
 		doblue
-			draw_text(x+namepos.x+blue, y+lb*ftheight+namepos.y+blue, backlog[j].guy.displayname);
+			draw_text(x+namepos.x, y+lb*ftheight+namepos.y, backlog[j].guy.displayname);
 		endblue
 		draw_set_halign(fa_left);
 		draw_set_color(c_white);
@@ -67,7 +67,7 @@ function st_textnvl() {
 	draw_set_color(talkers[0].namecolor);
 	draw_set_halign(fa_right);
 	doblue
-		draw_text(x+namepos.x+blue, y+lb*ftheight+namepos.y+blue, talkers[0].displayname);
+		draw_text(x+namepos.x, y+lb*ftheight+namepos.y, talkers[0].displayname);
 	endblue
 	draw_set_halign(fa_left);
 	draw_set_color(c_white);

@@ -16,6 +16,15 @@ function textline_next() {
 		msg[talkpos].text = string_waits(msg[talkpos].text);
 		msg[talkpos].text = global.textguy[$msg[talkpos].name].texteffects + msg[talkpos].text;
 		array_push(backlog, msg[talkpos]);
+		//log(style, global.textstyles.adv, global.textstyles.nvl)
+		if style == global.textstyles.adv || style == global.textstyles.kitou {
+			msg[talkpos].text = meaning_auto(msg[talkpos].text, "8A3642", "551809");
+			log(msg[talkpos].text);
+		} else if style == global.textstyles.nvl || style == global.textstyles.kitounvl {
+			msg[talkpos].text = meaning_auto(msg[talkpos].text, "93CEFA", "FFFFFF");
+			log(msg[talkpos].text);
+		}
+		
 		//array_insert(tacklog, 0, array_create(2000, new tevent()));
 		var thetext = load_tevents(msg[talkpos].text, id);
 		//var darray = [];
@@ -24,6 +33,7 @@ function textline_next() {
 		array_push(tacklog, tevents);
 		//log(tacklog[0]);
 		msg[talkpos].text = lb_auto(thetext, width);
+		
 		charpos = 0;
 		c_charpush(id, new talkchar(msg[talkpos].sprite, msg[talkpos].name, msg[talkpos].spritepos));
 		talkspeed = talkers[0].textspeed;

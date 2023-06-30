@@ -3,7 +3,7 @@ global.textstyles = {};
 global.textstyles.adv = {
 	x: 1920/2,
 	y: 740,
-	width: 1188,
+	width: 1240,
 	height: 170,
 	spriteposy: 550,
 	namepos: new vec2(412, 666),
@@ -35,7 +35,7 @@ global.textstyles.future = {
 	width: 1150,
 	height: 815,
 	spriteposy: 550,
-	namepos: new vec2(-216, 7),
+	namepos: new vec2(-700, 7),
 	sprite: s_bigtext,
 	type: st_textnvl,
 	font: ft_marineconstellation,

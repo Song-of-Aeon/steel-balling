@@ -26,13 +26,13 @@ function txt_conversation() {
 		}
 	}),
 	ntxt(6.5 sec),
-	NOD,
+	
 	
 	txt("Three months before the 'Steel Ball Run' race, a certain 'important person' was led astray..."),
 	ptxt(),
 	ntxt(u, KITOU.NEUTRAL, SPRITEPOS.CENTER+.1),
 	txt("In a small valley country on a small eastern island, a shrine maiden plans to make changes to the world."),
-	txt("She lead an initiative called the \"Human Expansion Project\", with the cooperation of the Tengu in that country."),
+	txt("She lead an initiative called the \"Human Expansion Project\", with the cooperation of the tengu in that country."),
 	txt("It aimed to integrate their societies, strengthening and giving freedom to both species."),
 	ptxt(),
 	txt("...Such was how she saw it."),
@@ -70,7 +70,7 @@ function txt_conversation() {
 	txt("...", KITOU.NEUTRAL),
 	txt("You don't know the first thing about what it's like to live here, youkai.", KITOU.NEUTRAL),
 	txt("Can I even call you that much?", KITOU.NEUTRAL),
-	txt("I think I have more in common with your average Tengu than you do, at this point.", KITOU.ANGRY),
+	txt("I think I have more in common with your average tengu than you do, at this point.", KITOU.ANGRY),
 	txt("You aren't part of any group at all. You don't have anyone you want to protect or see prosper.", KITOU.NEUTRAL),
 	
 	//txt("//"Looking back on it now..."
@@ -106,7 +106,7 @@ function txt_conversation() {
 	txt("I think I saw a single tear in her eye."),
 	ptxt(),
 	txt("The next day, she showed up, formal as usual."),
-	txt("She said that if I was really going to go through with this, I would need to speak the language of the Tengu."),
+	txt("She said that if I was really going to go through with this, I would need to speak the language of the tengu."),
 	ptxt(),
 	ntxt(u, KITOU.PRESSURED),
 	txt("I needed capital."),
@@ -114,11 +114,12 @@ function txt_conversation() {
 	txt("With enough money, I could buy certain humans into power..."),
 	txt("She told me of a great competition, across the ocean."),
 	ptxt(),
-	ntxt(u, KITOU.NOTHING, SPRITEPOS.LEFT+.5),
-	ntxt(u, YUKARI.NOTHING, SPRITEPOS.CENTER),
+	ntxt(u, KITOU.NEUTRAL),
 	txt("I would leave the safety of the new great barrier, open amongst the people of the outside world, but it would be worth it."),
 	txt("Yukari Yakumo would oversee my extended stay outside, in case I needed to be brought back home for anything important, and I would collect the equivalent of one hundred million Yen."),
 	
+	ntxt(u, KITOU.NOTHING, SPRITEPOS.LEFT+.5),
+	ntxt(u, YUKARI.NOTHING, SPRITEPOS.CENTER),
 	ptxt(global.textstyles.kitou),
 	txt("Kitou.", YUKARI.QUIZZICAL),
 	
@@ -131,7 +132,7 @@ function txt_conversation() {
 	
 	txt("One, to preserve the sanctity of the Hakurei power.", YUKARI.QUIZZICAL),
 	txt("The outside world is largely defecit of magic as we know it.", YUKARI.QUIZZICAL),
-	txt("You would be incapable of using magic, and your ability as the Hakurei shrine maiden may degrade.", YUKARI.QUIZZICAL),
+	txt("You would be incapable of using general magics, and your ability as the Hakurei shrine maiden may degrade.", YUKARI.QUIZZICAL),
 	txt("Thus, I would like to reshape it into a form that the outside world accepts.", YUKARI.HAPPY),
 	
 	txt("Yeah? What's that like?", KITOU.NEUTRAL),
@@ -152,7 +153,7 @@ function txt_conversation() {
 	txt("I know.", KITOU.PRESSURED),
 	txt("I know she's strong, too. I just hate to be so far away...", KITOU.PRESSURED),
 	txt("Whatever, it'll work out.", KITOU.NEUTRAL),
-	txt("Anyway do you really have to make a second change to me? That's already quite a lot.", KITOU.ANGRY),
+	txt("Anyway, do you really have to make a second change to me? That's already quite a lot.", KITOU.ANGRY),
 	
 	txt("<Oh, I suppose I don't strictly have to.>", YUKARI.HAPPY),
 	txt("<How is your English, Kitou?>", YUKARI.SMUG, SPRITEPOS.CENTER-.5),
@@ -198,7 +199,7 @@ function txt_conversation() {
 	ptxt(),
 	txt("I've lived with magic my whole life."),
 	txt("My 'ability to manipulate friction'..."),
-	txt("It's second nature to me and my horse."),
+	txt("It's second nature to both me and my horse."),
 	ptxt(),
 	ntxt(u, KITOU.SMUG),
 	txt("Because of that, I couldn't help but think that this 'race' was nothing but guaranteed to end in my victory."),
@@ -215,7 +216,7 @@ function txt_conversation() {
 	txt("That 'rotation'...!"),
 	txt("That boy is summoning it with his magic, but I can tell."),
 	txt("It 'isn't magic itself'!"),
-	txt("The boy is using it with magic, and the idiot is trying to use it with a technology, that steel ball."),
+	txt("The boy is using it with magic, and the idiot was trying to use it with a technology, that steel ball."),
 	ptxt(),
 	txt("It's something like a 'universal constant'."),
 	txt("Something that didn't come to existence with 'magic' or 'technology', but can be used by both."),

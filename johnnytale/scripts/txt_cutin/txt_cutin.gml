@@ -21,7 +21,7 @@ function txt_cutin() {
 		}
 	}),
 	ntxt(6.5 sec),
-	NOD,
+	
 	
 	],[
 	
@@ -57,7 +57,7 @@ function txt_othercutin() {
 		}
 	}),
 	ntxt(6.5 sec),
-	NOD,
+	
 	
 	],[
 	

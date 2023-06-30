@@ -20,7 +20,7 @@ function txt_victory() {
 		}
 	}),
 	ntxt(6.5 sec),
-	NOD,
+	
 	
 	txt("The black hole tears at Kitou Hakurei's back, shredding her clothing and clawing her hair."),
 	txt("She tries to get closer to the ground, but Gyro is in the way. He tries to buck her off, but her enhanced-friction grip isn't letting out."),
@@ -38,7 +38,7 @@ function txt_victory() {
 	txt("After a few moments, the 'vortex' dissipates, its 'rotation' naturally fading."),
 	txt("Kitou's back has been flayed. she is bleeding profusely, and still injured from her fall before."),
 	ntxt(u, GYRO.BPRESSURED, SPRITEPOS.MIDLEFT),
-	ntxt(u, KITOU.BPRESSURED, SPRITEPOS.LEFT),
+	ntxt(u, KITOU.BPRESSURED, SPRITEPOS.LEFT-.5),
 	txt("Gyro easily pushes her off of him with no resistence."),
 	txt("Kitou is bleeding all over, and will take any excuse to give up the fight."),
 	txt("Gyro's legs have taken some damage from Johnny's 'vortex', but not enough to stop him from standing."),
@@ -99,6 +99,7 @@ function txt_victory() {
 	txt("They would continue to ride forever, to infinity."),
 	txt("They would ride deeper, they would ride further."),
 	txt("\"Johnny Joestar\" and \"Gyro Zeppeli\"... incredible men who left countless in their wake."),
+	ptxt(),
 	txt("Let us attend such a wake now."),
 	txt("A few minutes after those men rode off, by the side of a tree in the middle of Michigan's forests, a woman lies dying."),
 	

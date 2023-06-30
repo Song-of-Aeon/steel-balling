@@ -20,7 +20,7 @@ function txt_confrontation() {
 		}
 	}),
 	ntxt(6.5 sec),
-	NOD,
+	
 	
 	txt("His gaze silent, the man rises from his spot aside the pond."),
 	
@@ -48,7 +48,7 @@ function txt_confrontation() {
 	ntxt(u, JOHNNY.NEUTRAL, SPRITEPOS.LEFT),
 	ntxt(u, GYRO.SMUG, .5),
 	txt("Stepping widely around Slow Dancer's back, Gyro swiftly and smoothly releases Johnny upon the steed."),
-	ntxt(u, GYRO.NEUTRAL, SPRITEPOS.MIDLEFT),
+	ntxt(u, GYRO.NEUTRAL, SPRITEPOS.CENTER),
 	txt("Once Gyro was mounted as well, they continued their travels."),
 	txt("After a few minutes of contemplation while riding in silence, Johnny spoke confidently."),
 	
@@ -143,7 +143,7 @@ function txt_confrontation() {
 	txt("They have no time to react. Even at their incredible speed, the person is able to weave between their horses, and continues traveling in the opposite direction of Johnny and Gyro."),
 	ntxt(u, JOHNNY.PRESSURED, SPRITEPOS.MIDRIGHT),
 	ntxt(u, GYRO.PRESSURED, SPRITEPOS.RIGHT),
-	txt("Johnny is just barely able to turn his head in time to see her back before she disappears into the trees."),
+	txt("Johnny is just barely able to turn his head in time to see their back before they disappear into the tree."),
 	
 	ptxt(global.textstyles.adv),
 	txt("W... who the hell was that!?", JOHNNY.PRESSURED),
@@ -194,7 +194,7 @@ function txt_confrontation() {
 	txt("1... 2, 3."),
 	txt("From Johnny's right hand, three 'bullets' fire."),
 	txt("Unfortunately, none of them can land before the person once again flies between the horses."),
-	ntxt(u, KITOU.ANGRY, SPRITEPOS.RIGHT),
+	ntxt(u, KITOU.ANGRY, 5),
 	txt("With a quick swipe of the shortstaff, Johnny is knocked off of his horse."),
 	
 	ptxt(global.textstyles.adv),
@@ -206,6 +206,7 @@ function txt_confrontation() {
 	txt("Gyro leaps from Valkyrie and quickly helps Johnny to his balance, then stands to face their attacker."),
 	ntxt(u, JOHNNY.PRESSURED, SPRITEPOS.LEFT),
 	ntxt(u, GYRO.PRESSURED, SPRITEPOS.MIDLEFT),
+	ntxt(u, KITOU.NEUTRAL, 6.5),
 	txt("This time, they begin to slow after passing the two, eventually coming to a stop."),
 	
 	ptxt(global.textstyles.adv),

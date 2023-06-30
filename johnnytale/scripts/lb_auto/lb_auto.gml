@@ -41,7 +41,7 @@ function meaning_auto(str, altcolor="FFFFFF", defcolor="000000") {
 			}
 		} else {
 			if array_contains_string(["' ", "'.", "',", "';", "'!", "'?", "'\"", "'-"], string_copy(str, i, 2)) {
-				str = string_insert("|c"+defcolor, str, i+1);
+				str = string_insert("|c"+defcolor, str, i+2);
 				mode = false;
 			}
 		}

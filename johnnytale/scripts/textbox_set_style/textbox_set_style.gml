@@ -9,6 +9,7 @@ function textbox_set_style(style=global.textdefault) {
 		VALKYRIE.draw = method(VALKYRIE, style.type);
 		VALKYRIE.x = style.x;
 		VALKYRIE.y = style.y;
+		VALKYRIE.style = style;
 		return true;
 	}
 	return false;

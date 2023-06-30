@@ -2,6 +2,8 @@ function txt_end() {
 	
 	msg = msglang([
 	
+	ntxt(5 sec),
+	
 	txt("..."),
 	txt("I shut the book."),
 	txt("I slam it shut, I pick it up, and I throw it on the ground."),
@@ -65,7 +67,7 @@ function txt_end() {
 	txt("\"Don't let the gap youkai do anything weird.\"", REIMU.NOTHING),
 	txt("That's it. If Yukari ever tries to talk to you, or you see any evidence of her sneaking around...", REIMU.NOTHING),
 	txt("Tell me immediately.", REIMU.NOTHING),
-	txt("If I'm not there, tell Marisa, then... I don't know, everyone you can find.", REIMU.NOTHING),
+	txt("If I'm not there, tell Marisa, then... I don't know, anyone you can find.", REIMU.NOTHING),
 	txt("And tell them to not go along with her, even if it would be the right thing to do.", REIMU.NOTHING),
 	txt("What I just read, Aunn...", REIMU.NOTHING),
 	txt("This book...", REIMU.NOTHING),

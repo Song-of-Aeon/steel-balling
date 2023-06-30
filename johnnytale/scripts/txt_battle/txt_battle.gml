@@ -28,7 +28,7 @@ function txt_battle() {
 		}
 	}),
 	ntxt(6.5 sec),
-	NOD,
+	
 	
 	ptxt(global.textstyles.adv),
 	txt("Listen... I don't know who you are, but trying to be chivalrous is a waste of time.", JOHNNY.NEUTRAL, SPRITEPOS.LEFT),
@@ -83,8 +83,8 @@ function txt_battle() {
 	ntxt(u, KITOU.ANGRY, SPRITEPOS.CENTER+.1),
 	txt("Without even seeming like she noticed them, they all fly past her."),
 	ntxt(u, KITOU.ANGRY, -5),
-	txt("She whips through the men for a third time, deciding to slam Gyro with her staff."),
 	ntxt(u, GYRO.BPRESSURED, -2),
+	txt("She whips through the men for a third time, deciding to slam Gyro with her staff."),
 	txt("Gyro is thrown across the forest, left with a bleeding gash in his side."),
 	
 	ptxt(global.textstyles.adv),
@@ -111,8 +111,8 @@ function txt_battle() {
 	
 	txt("That 'stone' from earlier, it-", JOHNNY.SURPRISED),
 	
-	ntxt(u, KITOU.ANGRY, 5),
-	txt("Agh!", GYRO.BPRESSURED),
+	ntxt(u, KITOU.ANGRY, 6.5),
+	txt("Agh!", GYRO.BPRESSURED, SPRITEPOS.CENTER+.5),
 	
 	ptxt(global.textstyles.nvl),
 	txt("Interrupted by Gyro's howl of pain, Johnny stammers as he sees the woman once again rush between them, calm as before."),
@@ -153,7 +153,7 @@ function txt_battle() {
 	ntxt(u, JOHNNY.BPRESSURED, SPRITEPOS.CENTER+.5),
 	ntxt(u, KITOU.NEUTRAL, -5),
 	txt("As she passes by, Johnny finds himself knocked to his back, with a tear from his chest to his shoulder."),
-	ntxt(u, GYRO.BSERIOUS, SPRITEPOS.LEFT+.3),
+	ntxt(u, GYRO.BSERIOUS, SPRITEPOS.MIDLEFT),
 	txt("Gyro hastens to his feet, still wounded from the attacks."),
 	
 	ptxt(global.textstyles.adv),
@@ -192,7 +192,7 @@ function txt_battle() {
 	ptxt(global.textstyles.nvl),
 	ntxt(u, GYRO.BPRESSURED, SPRITEPOS.CENTER+.1),
 	txt("Gyro quickly tosses a 'steel ball' back, and turns to face the incoming shrine maiden."),
-	ntxt(u, KITOU.ANGRY, 5),
+	ntxt(u, KITOU.ANGRY, 6.5),
 	ntxt(u, GYRO.BPRESSURED, SPRITEPOS.CENTER+.5),
 	txt("Kitou closes in and slams one of Gyro's outstretched legs with her staff, right on the knee."),
 	txt("Again, a gash is left with it."),
@@ -295,7 +295,7 @@ function txt_battle() {
 	ntxt(u, JOHNNY.BPRESSURED, 5),
 	ntxt(u, GYRO.BSERIOUS, SPRITEPOS.MIDRIGHT),
 	ntxt(u, KITOU.PRESSURED, SPRITEPOS.LEFT),
-	ntxt(u, TUSK.NORMAL, 6),
+	ntxt(u, TUSK.NORMAL, 7.5),
 	txt("Rushing to his feet, Gyro Zeppeli dashed toward the fallen woman."),
 	txt("While he was trained in classical martial arts..."),
 	ntxt(u, GYRO.BNEUTRAL, SPRITEPOS.CENTER+.1),
@@ -363,7 +363,7 @@ function txt_battle() {
 	txt("Not 'too close' to Kitou, so that she would feel the need to 'dodge'."),
 	txt("Not 'too low' to the ground, so that Gyro isn't hurt."),
 	txt("Not 'too far' so that the effect is weak..."),
-	txt("Just past her back."),
+	txt("Just behind her back."),
 	ptxt(),
 	txt("He does not care that Kitou has been made aware of his 'preperation'."),
 	txt("No, the opposite, he thanks Gyro for her attention."),
