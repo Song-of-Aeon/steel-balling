@@ -2,6 +2,7 @@ function txt_confrontation() {
 	
 	msg = msglang([
 	
+	btxt(bk_marsh),
 	btxt(u, u, u, u, u, function() {
 		statish("fade", 100);
 		statish("standfade", 7 sec);
@@ -35,6 +36,7 @@ function txt_confrontation() {
 	txt("One hundred points, Johnny.", GYRO.SMILING, SPRITEPOS.MIDRIGHT),
 	txt("This is undeniably 'someone's' work, but...", GYRO.SMUG),
 	txt("Nyohoho...", GYRO.SMILING),
+	ntxt(u, u, u, function() {music_set(mus.nightrider)}),
 	txt("Who cares?", GYRO.NEUTRAL),
 	txt("If they're showing off their power before even showing up, they must be some sort of dumbass.", GYRO.NEUTRAL),
 	txt("Let's just keep going.", GYRO.NEUTRAL),
@@ -119,6 +121,7 @@ function txt_confrontation() {
 	
 	ptxt(global.textstyles.nvl),
 	txt("Bantering like this for a while, the two racers continued riding through the plains of the American midwest."),
+	btxt(bk_forest),
 	txt("Johnny had nearly forgotten about his wariness from before."),
 	ptxt(),
 	txt("Did Gyro Zeppeli intend for that?"),
@@ -139,6 +142,7 @@ function txt_confrontation() {
 	ntxt(u, PATHOFLIES.NORMAL, -4),
 	//ntxt(u, JOHNNY.NOTHING, SPRITEPOS.MIDRIGHT),
 	//ntxt(u, KITOU.NOTHING, SPRITEPOS.RIGHT),
+	ntxt(u, u, u, function() {music_set(mus.null)}),
 	txt("A person speeds toward and past the two men."),
 	txt("They have no time to react. Even at their incredible speed, the person is able to weave between their horses, and continues traveling in the opposite direction of Johnny and Gyro."),
 	ntxt(u, JOHNNY.PRESSURED, SPRITEPOS.MIDRIGHT),

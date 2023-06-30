@@ -2,6 +2,8 @@ function txt_stoneskipping() {
 	
 	msg = msglang([
 	
+	btxt(bk_marsh),
+	ntxt(u, u, u, function() {music_set(mus.nightrider)}),
 	txt("At the edge of the marsh, Johnny glances behind himself."),
 	txt("His eyes have no particular sentiment for 'this place', but he felt as if he had left something behind him, here."),
 	txt("Perhaps it was his weakness, perhaps it was his sanity..."),
@@ -95,6 +97,7 @@ function txt_stoneskipping() {
 	ptxt(global.textstyles.nvl),
 	txt("Johnny releases the stone upon the pond, with the best throw he can muster."),
 	txt("It skips along the water in broad jumps, bounding without losing any speed at all."),
+	ntxt(u, u, u, function() {music_set(mus.null)}),
 	txt("As it reaches the other side's shoreline, it slides against the sand and is launched upwards, striking a boy square in the teeth."),
 	ptxt(),
 	txt("Bleeding from his gums, the boy falls over, as the other children squeal and run away."),

@@ -8,6 +8,7 @@ function txt_conversation() {
 	//txt("Capable of easing friction
 	//txt("A confident human from a distinguished Eastern dynasty of overseers. She left her daughter and her country in order to tackle the 'Steel Ball Run' race.
 	
+	btxt(s_null),
 	btxt(u, u, u, u, u, function() {
 		statish("fade", 100);
 		statish("standfade", 7 sec);
@@ -31,6 +32,7 @@ function txt_conversation() {
 	txt("Three months before the 'Steel Ball Run' race, a certain 'important person' was led astray..."),
 	ptxt(),
 	ntxt(u, KITOU.NEUTRAL, SPRITEPOS.CENTER+.1),
+	ntxt(u, u, u, function() {music_set(mus.nico)}),
 	txt("In a small valley country on a small eastern island, a shrine maiden plans to make changes to the world."),
 	txt("She lead an initiative called the \"Human Expansion Project\", with the cooperation of the tengu in that country."),
 	txt("It aimed to integrate their societies, strengthening and giving freedom to both species."),
@@ -38,6 +40,7 @@ function txt_conversation() {
 	txt("...Such was how she saw it."),
 	
 	ptxt(global.textstyles.kitou),
+	btxt(bk_shrine),
 	ntxt(u, KITOU.SHOCKED, SPRITEPOS.MIDLEFT),
 	txt("Good afternoon, Kitou.", YUKARI.QUIZZICAL, SPRITEPOS.RIGHT),
 	txt("I would like to have a talk with you.", YUKARI.STERN),
@@ -96,6 +99,7 @@ function txt_conversation() {
 	ntxt(u, YUKARI.NOTHING, SPRITEPOS.MIDRIGHT),
 	
 	ptxt(global.textstyles.kitounvl),
+	btxt(s_null),
 	ntxt(u, KITOU.ANGRY, SPRITEPOS.CENTER+.1),
 	txt("That youkai, Yukari Yakumo..."),
 	txt("She showed up a few more times after that, to try and convince me otherwise."),
@@ -118,9 +122,10 @@ function txt_conversation() {
 	txt("I would leave the safety of the new great barrier, open amongst the people of the outside world, but it would be worth it."),
 	txt("Yukari Yakumo would oversee my extended stay outside, in case I needed to be brought back home for anything important, and I would collect the equivalent of one hundred million Yen."),
 	
+	ptxt(global.textstyles.kitou),
 	ntxt(u, KITOU.NOTHING, SPRITEPOS.LEFT+.5),
 	ntxt(u, YUKARI.NOTHING, SPRITEPOS.CENTER),
-	ptxt(global.textstyles.kitou),
+	btxt(bk_shrine),
 	txt("Kitou.", YUKARI.QUIZZICAL),
 	
 	txt("What is it?", KITOU.NEUTRAL),
@@ -178,6 +183,7 @@ function txt_conversation() {
 	txt("<A long ride will do you well.>", YUKARI.SMUG),
 	
 	ptxt(global.textstyles.kitounvl),
+	btxt(s_null),
 	ntxt(u, KITOU.PRESSURED, SPRITEPOS.CENTER),
 	ntxt(u, YUKARI.NOTHING),
 	txt("She wouldn't even bring me out of the barrier herself. I had to set up a whole ritual just to pass through."),
@@ -212,6 +218,7 @@ function txt_conversation() {
 	txt("I thought I would go and start getting some of the top-ranking racers to drop out, so I picked this pair..."),
 	ptxt(),
 	ntxt(u, KITOU.PRESSURED),
+	ntxt(u, u, u, function() {music_set(mus.null)}),
 	txt("But what the hell is this?"),
 	txt("That 'rotation'...!"),
 	txt("That boy is summoning it with his magic, but I can tell."),
@@ -228,6 +235,7 @@ function txt_conversation() {
 	txt("She-"),
 	
 	ptxt(global.textstyles.kitou),
+	btxt(bk_forest),
 	txt("Damn it!", KITOU.BPRESSURED),
 	
 	//txt("the tengu wanted to expand their influence to the human village, so they began negotiations to allow tengu to live in the human villange and humans on the youkai mountain.

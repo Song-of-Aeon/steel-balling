@@ -2,6 +2,7 @@ function txt_victory() {
 	
 	msg = msglang([
 	
+	btxt(bk_forest),
 	btxt(u, u, u, u, u, function() {
 		statish("fade", 100);
 		statish("standfade", 7 sec);
@@ -47,6 +48,7 @@ function txt_victory() {
 	ntxt(u, JOHNNY.BWORRIED, SPRITEPOS.MIDRIGHT),
 	ntxt(u, GYRO.BPRESSURED, SPRITEPOS.LEFT),
 	ntxt(u, KITOU.BPRESSURED, -4),
+	ntxt(u, u, u, function() {music_set(mus.veronaend)}),
 	txt("Ugh...", GYRO.BPRESSURED),
 	txt("Johnny... great work out there.", GYRO.BPRESSURED),
 	
@@ -100,6 +102,7 @@ function txt_victory() {
 	txt("They would ride deeper, they would ride further."),
 	txt("\"Johnny Joestar\" and \"Gyro Zeppeli\"... incredible men who left countless in their wake."),
 	ptxt(),
+	ntxt(u, u, u, function() {music_set(mus.null)}),
 	txt("Let us attend such a wake now."),
 	txt("A few minutes after those men rode off, by the side of a tree in the middle of Michigan's forests, a woman lies dying."),
 	

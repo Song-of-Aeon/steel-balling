@@ -30,7 +30,7 @@ function txt_intro() {
 	ptxt(),
 	//CLO,
 	ntxt(5 sec, u, u, function() {
-		music_set(mus.null);
+		music_set(mus.oldvessel);
 		textbox_set_style(global.textstyles.nvl);
 	}),
 	//DECLO,
@@ -52,6 +52,8 @@ function txt_intro() {
 	txt("Treat them kindly. They have endured a long, awful battle."),
 	
 	ptxt(global.textstyles.adv),
+	btxt(bk_marsh),
+	ntxt(u, u, u, function() {music_set(mus.null)}),
 	txt("Gyro...", JOHNNY.NOTHING), //begin quote from final chapter of in a silent way
 	txt("Gyro!", JOHNNY.PRESSURED, SPRITEPOS.LEFT),
 	

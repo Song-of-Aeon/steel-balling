@@ -9,7 +9,7 @@ function txt_battle() {
 	//txt("[A determined human from a distinguished American family. Now disowned, he challenges the 'Steel Ball Run' race with his partner, Gyro.]
 	
 	
-	
+	btxt(bk_forest),
 	btxt(u, u, u, u, u, function() {
 		statish("fade", 100);
 		statish("standfade", 7 sec);
@@ -41,6 +41,7 @@ function txt_battle() {
 	txt("I didn't mean to be rude, but you're right. I don't really care.", KITOU.NEUTRAL),
 	
 	ptxt(global.textstyles.nvl),
+	ntxt(u, u, u, function() {music_set(mus.gunslinger)}),
 	txt("Staring down the woman, Johnny and Gyro prepare themselves to go on the offensive."),
 	txt("Gyro begins to slide his hand into his holster, grabbing his 'steel balls'."),
 	txt("Johnny surveys the landscape, taking note of anything that could be used during the fight."),

@@ -2,6 +2,8 @@ function txt_aoi() {
 	
 	msg = msglang([
 	
+	btxt(bk_forest),
+	ntxt(u, u, u, function() {music_set(mus.fontaine)}),
 	txt("Kitou.", YUKARI.STERN, SPRITEPOS.MIDRIGHT),
 	
 	txt("Y-yukari Yakumo...", KITOU.BPRESSURED, SPRITEPOS.LEFT),
@@ -80,7 +82,9 @@ function txt_aoi() {
 	txt("A gap opens before her, filling this crimson forest with the light of midday, the light of the Hakurei."),
 	txt("Kitou sees her daughter before her, and speaks."),
 	ptxt(),
-	btxt(u, u, u, u, function() {draw_clear(c_black)}),
+	//btxt(u, u, u, u, function() {draw_clear(c_black)}),
+	btxt(s_null),
+	ntxt(u, KITOU.NOTHING),
 	txt("I don't know what she said, I don't know how she said it."),
 	txt("That much doesn't have to be seen."),
 	ptxt(),
