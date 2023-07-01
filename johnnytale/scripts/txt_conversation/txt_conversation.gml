@@ -8,24 +8,6 @@ function txt_conversation() {
 	//txt("Capable of easing friction
 	//txt("A confident human from a distinguished Eastern dynasty of overseers. She left her daughter and her country in order to tackle the 'Steel Ball Run' race.
 	
-	btxt(s_null, u, u, u, u, function() {
-		statish("fade", 100);
-		statish("standfade", 7 sec);
-		
-		if standfade {
-			fade--;
-			standfade--;
-		
-			draw_clear(c_black);
-			draw_spr(0, 0, s_kitoucutin, u, u, u, u, u, standfade/100);
-			draw_set_color(c_black);
-			draw_set_alpha(fade/100);
-			draw_rectangle(0, 0, 1920, 1080, false);
-			draw_set_alpha(1);
-			draw_set_color(c_white);
-		}
-	}),
-	ntxt(6.5 sec),
 	
 	
 	txt("Three months before the 'Steel Ball Run' race, a certain 'important person' was led astray..."),
@@ -84,6 +66,25 @@ function txt_conversation() {
 	txt("She was 'led astray'..."),
 	txt("The 'Hakurei' in her was led astray by the 'Kitou' in her."),
 	txt("You would do well to remember this."),
+	
+	btxt(s_null, u, u, u, u, function() {
+		statish("fade", 100);
+		statish("standfade", 8 sec);
+		
+		if standfade {
+			fade--;
+			standfade--;
+		
+			draw_clear(c_black);
+			draw_spr(0, 0, s_kitoucutin, u, u, u, u, u, standfade/100);
+			draw_set_color(c_black);
+			draw_set_alpha(fade/100);
+			draw_rectangle(0, 0, 1920, 1080, false);
+			draw_set_alpha(1);
+			draw_set_color(c_white);
+		}
+	}),
+	ntxt(7.5 sec, u, u, function() {music_set(mus.null)}),
 	
 	ptxt(global.textstyles.kitou),
 	txt("...If I may.", YUKARI.QUIZZICAL),

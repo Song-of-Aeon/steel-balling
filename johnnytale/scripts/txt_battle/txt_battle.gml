@@ -9,27 +9,11 @@ function txt_battle() {
 	//txt("[A determined human from a distinguished American family. Now disowned, he challenges the 'Steel Ball Run' race with his partner, Gyro.]
 	
 	
-	btxt(bk_forest, u, u, u, u, function() {
-		statish("fade", 100);
-		statish("standfade", 7 sec);
-		
-		if standfade {
-			fade--;
-			standfade--;
-		
-			draw_clear(c_black);
-			draw_spr(0, 0, s_tuskcutin, u, u, u, u, u, standfade/100);
-			draw_set_color(c_black);
-			draw_set_alpha(fade/100);
-			draw_rectangle(0, 0, 1920, 1080, false);
-			draw_set_alpha(1);
-			draw_set_color(c_white);
-		}
-	}),
-	ntxt(6.5 sec),
+	
 	
 	
 	ptxt(global.textstyles.adv),
+	btxt(bk_forest),
 	txt("Listen... I don't know who you are, but trying to be chivalrous is a waste of time.", JOHNNY.NEUTRAL, SPRITEPOS.LEFT),
 	txt("Ultimately, you want us to give up. Even if it makes you feel better about yourself, it doesn't change what you're about to try to do.", JOHNNY.NEUTRAL),
 	
@@ -221,7 +205,7 @@ function txt_battle() {
 	txt("\"Changing an object's friction\".", KITOU.SMUG),
 	ntxt(u, PATHOFLIES.NORMAL, SPRITEPOS.RIGHT),
 	ntxt(u, PATHOFLIES.NORMAL, SPRITEPOS.MIDRIGHT),
-	txt("That's the power of my magic, [Path of Lies」.", KITOU.NEUTRAL),
+	txt("That's the power of my magic, [Path of Lies].", KITOU.NEUTRAL),
 	txt("I don't like to look down on people, but outside-world mages...", KITOU.NEUTRAL),
 	txt("Even if they know what this ability is, they don't know how to defend against it.", KITOU.NEUTRAL),
 	ntxt(u, PATHOFLIES.NORMAL, SPRITEPOS.RIGHT),
@@ -267,7 +251,7 @@ function txt_battle() {
 	ptxt(global.textstyles.adv),
 	ntxt(u, TUSK.NORMAL, SPRITEPOS.CENTER+.1),
 	ntxt(u, TUSK.NORMAL, SPRITEPOS.MIDRIGHT+.1),
-	txt("[Tusk」!", JOHNNY.BFIRING),
+	txt("[Tusk]!", JOHNNY.BFIRING),
 	
 	ptxt(global.textstyles.nvl),
 	txt("But instead of aiming at the enemy herself, he aimed it to the ground... in front of Kitou's path of movement, and just slightly to the side."),
@@ -285,6 +269,25 @@ function txt_battle() {
 	txt("Kitou Hakurei slides into the newly curved earth, changing her trajectory."),
 	ntxt(u, KITOU.SHOCKED, -5),
 	txt("She flies outside of the vortex, still at her top speed, right into a nearby tree."),
+	
+	btxt(bk_forest, u, u, u, u, function() {
+		statish("fade", 100);
+		statish("standfade", 8 sec);
+		
+		if standfade {
+			fade--;
+			standfade--;
+		
+			draw_clear(c_black);
+			draw_spr(0, 0, s_tuskcutin, u, u, u, u, u, standfade/100);
+			draw_set_color(c_black);
+			draw_set_alpha(fade/100);
+			draw_rectangle(0, 0, 1920, 1080, false);
+			draw_set_alpha(1);
+			draw_set_color(c_white);
+		}
+	}),
+	ntxt(7.5 sec),
 	
 	ptxt(global.textstyles.adv),
 	txt("Gyro! Get her!", JOHNNY.BPRESSURED),
@@ -376,13 +379,18 @@ function txt_battle() {
 	txt("With very slight inward-turned angles, they collide right behind Kitou's back, and begin to form a 'vortex'."),
 	txt("A 'vortex' not on a surface, but floating in the air."),
 	txt("A whipping, destroying, 'black hole' begins to tear at Kitou Hakurei."),
-	ntxt(u, u, u, function() {music_set(mus.null)}),
+	ptxt(),
+	txt("As she realizes that she's finally been trapped, that this isn't something she can 'fly away' from..."),
+	txt("She thinks about how ridiculous it all is, how unfair it is."),
+	txt("She considers everything that happened to bring her out to this country, to this 'race'..."),
+	txt("..."),
+	
 	
 	//txt("[STAND CUTIN: PATH OF LIES]
 	
 	//txt("[Stand user: Kitou Hakurei]
-	//txt("[Stand name: [Path of Lies」]
-	//txt("[Anything touched by [Path of Lies」 will have how much 'friction' it experiences modified. Typically, Kitou uses this ability on herself and her horse in order to gain speed by allowing them to simply slide along the ground without effort. By increasing the friction of her short staff, Kitou can make it a weapon capable of tearing things, even though it's blunt.]
+	//txt("[Stand name: [Path of Lies]]
+	//txt("[Anything touched by [Path of Lies] will have how much 'friction' it experiences modified. Typically, Kitou uses this ability on herself and her horse in order to gain speed by allowing them to simply slide along the ground without effort. By increasing the friction of her short staff, Kitou can make it a weapon capable of tearing things, even though it's blunt.]
 	
 	],[
 	

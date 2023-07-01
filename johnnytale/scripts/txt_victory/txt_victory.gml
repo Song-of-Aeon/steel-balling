@@ -4,7 +4,7 @@ function txt_victory() {
 	
 	btxt(bk_forest, u, u, u, u, function() {
 		statish("fade", 100);
-		statish("standfade", 7 sec);
+		statish("standfade", 10 sec);
 		
 		if standfade {
 			fade--;
@@ -19,7 +19,7 @@ function txt_victory() {
 			draw_set_color(c_white);
 		}
 	}),
-	ntxt(6.5 sec),
+	ntxt(9.5 sec),
 	
 	
 	txt("The black hole tears at Kitou Hakurei's back, shredding her clothing and clawing at her hair."),

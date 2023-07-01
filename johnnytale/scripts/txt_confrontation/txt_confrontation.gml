@@ -4,7 +4,7 @@ function txt_confrontation() {
 	
 	btxt(bk_marsh, u, u, u, u, function() {
 		statish("fade", 100);
-		statish("standfade", 7 sec);
+		statish("standfade", 8 sec);
 		
 		if standfade {
 			fade--;
@@ -19,7 +19,7 @@ function txt_confrontation() {
 			draw_set_color(c_white);
 		}
 	}),
-	ntxt(6.5 sec),
+	ntxt(7.5 sec),
 	
 	
 	txt("His gaze silent, the man rises from his spot aside the pond."),
@@ -234,7 +234,7 @@ function txt_confrontation() {
 	//txt("[STAND CUTIN: TUSK]
 	
 	//txt("[Stand user: Jonathan "Johnny" Joestar]
-	//txt("[Stand name: [Tusk」]
+	//txt("[Stand name: [Tusk]]
 	//txt("[Allows Johnny to 'spin' his fingernails and fire them as bullets. They grow back within a few minutes, but he only has ten.]
 	//txt("[In addition, Johnny has recently learned how to transfer the spin from his nails to its targets, allowing him to create a dangerous vortex whereever he hits.]
 	
